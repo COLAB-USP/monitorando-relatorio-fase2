@@ -133,11 +133,11 @@ Tendo isso em vista, a escolha da PA como metodologia para este trabalho se deu 
 Acompanhamento e Atividades Desenvolvidas
 -----------------------------------------
 
-A participação dos pesquisadores nas atividades dos grupos parceiros se deu através de acompanhamento remoto (através de conversas pela internet) e encontros presenciais. A documentação e aprofundamento das discussões foi feita através de um grupo focal, 28 entrevistas (totalizando 18h de gravações), múltiplos encontros de reflexão e um diário de atividades.
+A participação dos pesquisadores nas atividades dos grupos parceiros se deu através de acompanhamento remoto (através de conversas pela internet) e encontros presenciais. A documentação e aprofundamento das discussões foi feita através de um grupo focal, 27 entrevistas (totalizando 17h de gravações), múltiplos encontros de reflexão e um diário de atividades.
 
 Foram feitas duas visitas a Santarém e uma a Ponta de Pedras (cidades onde os estudos de caso se desenvolveram). Na primeira visita (setembro de 2016) foi feito um grupo focal que envolveu cerca de 30 pessoas, entre professores e estudantes, tendo duração de cerca de 3h.
 
-Na segunda visita (novembro de 2016) foram realizadas entrevistas com diversas pessoas envolvidas nas campanhas, algumas delas representando instituições envolvidas em sua implantação e articulação. Foram 18 entrevistas em Santarém, 8 em Ponta de Pedras e 2 em Belém. Em Santarém participaram das entrevistas pessoas de 5 escolas estaduais, em Ponta de Pedra uma escola estadual e uma municipal. A seguir estão descritos os perfis das pessoas entrevistadas:
+Na segunda visita (novembro de 2016) foram realizadas entrevistas com diversas pessoas envolvidas nas campanhas, algumas delas representando instituições envolvidas em sua implantação e articulação. Foram 18 entrevistas em Santarém, 7 em Ponta de Pedras e 2 em Belém. Em Santarém participaram das entrevistas pessoas de 5 escolas estaduais, em Ponta de Pedra uma escola estadual e uma municipal. A seguir estão descritos os perfis das pessoas entrevistadas:
 
 **Santarém:**
 
@@ -160,7 +160,6 @@ Na segunda visita (novembro de 2016) foram realizadas entrevistas com diversas p
 **Belém:**
 
 -   1 Representante do Ministério Público (articulador das campanhas)
--   1 Representante do Observatório Social de Belém
 
 A escolha dos entrevistados foi feita buscando-se incluir a maior diversidade de pontos de vista possível.
 
