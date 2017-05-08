@@ -1,0 +1,58 @@
+\usepackage{indentfirst}
+\chapterstyle{southall}
+\setsecnumdepth{none}
+\maxsecnumdepth{none}
+
+\makepagestyle{standard} %Make standard pagestyle
+
+\makeatletter                 %Define standard pagestyle
+\makeevenfoot{standard}{}{\thepage}{} %
+\makeoddfoot{standard}{}{\thepage}{}  %
+\makeevenhead{standard}{\leftmark}{}{}
+\makeoddhead{standard}{}{}{\rightmark}
+\makeheadrule{standard}{\textwidth}{\normalrulethickness}
+\makeatother                  %
+
+\makeatletter
+\makepsmarks{standard}{
+\createmark{chapter}{both}{shownumber}{\@chapapp\ }{ \quad }
+\createmark{section}{right}{shownumber}{}{ \quad }
+\createplainmark{toc}{both}{\contentsname}
+\createplainmark{lof}{both}{\listfigurename}
+\createplainmark{lot}{both}{\listtablename}
+\createplainmark{bib}{both}{\bibname}
+\createplainmark{index}{both}{\indexname}
+\createplainmark{glossary}{both}{\glossaryname}
+   }
+\makeatother                               %
+
+
+\nouppercaseheads
+\pagestyle{standard}               %Choosing pagestyle and chapter pagestyle
+\aliaspagestyle{chapter}{plain}    %Change plain to standard if you want the header on pages with chapter headings 
+
+
+\usepackage{eso-pic}
+\newcommand\BackgroundPic{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,%
+keepaspectratio]{merendas.jpg}%
+\vfill
+}}}
+
+
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+
+
+\usepackage{transparent}
+\usepackage{fix-cm} % Allows increasing the font size of specific fonts beyond LaTeX default specifications
+
+\setlength{\oddsidemargin}{0mm} % Adjust margins to center the colored title box
+\setlength{\evensidemargin}{0mm} % Margins on even pages - only necessary if adding more content to this template
+
+\newcommand{\HRule}[1]{\hfill \rule{0.2\linewidth}{#1}} % Horizontal rule at the bottom of the page, adjust width here
+

@@ -1,0 +1,30 @@
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\thispagestyle{empty} % Remove page numbering on this page
+
+\newgeometry{left=0cm,right=0cm,top=0cm,bottom=0cm}
+\AddToShipoutPicture*{\BackgroundPic}
+\begin{center}
+\begin{vplace}
+\transparent{0.8}
+\colorbox{black}{
+	\transparent{1.0}
+	\parbox[c][0.6\linewidth]{1.0\linewidth}{
+		\color{white}
+		\centering 
+		\fontfamily{pag}\fontsize{40pt}{60pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+		\textbf{Monitorando a Cidade} \\
+		\fontsize{30pt}{60pt}\selectfont
+		Relatório Fase II
+	}
+}
+\end{vplace}
+\end{center}
+\restoregeometry
+
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage % Whitespace to the end of the page
+\setcounter{page}{1}
