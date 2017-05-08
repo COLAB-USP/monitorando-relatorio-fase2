@@ -1,7 +1,7 @@
 # Relatório Monitorando Fase II
 
-Versão HTML
-Versão PDF
+[Versão HTML](https://colab-usp.github.io/monitorando-relatorio-fase2/)
+[Versão PDF](https://colab-usp.github.io/monitorando-relatorio-fase2/relatorio.pdf)
 
 
 # Compilação

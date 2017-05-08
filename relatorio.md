@@ -47,9 +47,12 @@ O financiamento desta pesquisa foi provido pelo Instituto Humanitas360.
 \vfill
 
 \begin{center}
-\textbf{Maio de 2017} \\
+\href{https://colab-usp.github.io/monitorando-relatorio-fase2}{Versão Online (HTML)} \\
+\href{https://github.com/colab-usp/monitorando-relatorio-fase2}{Repositório} \\
 \vspace{1cm}
-\href{http://creativecommons.org/licenses/by-sa/4.0}{\includegraphics[width=5.00000cm]{./media/by-sa.png}}
+\href{http://creativecommons.org/licenses/by-sa/4.0}{\includegraphics[width=5.00000cm]{./media/by-sa.png}} \\
+\vspace{1cm}
+\textbf{Maio de 2017} \\
 \end{center}
 
 \vspace{2cm}

@@ -328,7 +328,7 @@ table td {
   }
 }
 
-.title, .subtitle, .date {
+.title, .subtitle, .date, .other-links {
   text-align: center;
 }
 .subtitle {
