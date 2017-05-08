@@ -42,7 +42,7 @@ Este trabalho só foi possível graças ao apoio do Instituto Humanitas360 e col
 
 **Financiamento**
 
-O financiamento desta pesquisa foi provido pelo Instituto Humanitas360.
+O financiamento desta pesquisa foi provido pelo **[Instituto Humanitas360](https://humanitas360.org)**.
 
 \vfill
 
