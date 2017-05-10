@@ -28,7 +28,7 @@ include-after:
 
 \vspace{0.5cm}
 
-**[Colaboratório de Desenvolvimento e Participação da USP](http://colab.each.usp.br) (Colab):** Grupo de pesquisa da Universidade de São Paulo (USP) que atua também com desenvolvimento de software e na formação de pessoa. Trabalha em parceria com governos e organizações da sociedade civil. Entre seus objetivos principais estão: democratização do acesso a bens culturais, diagnóstico do acesso a dados, promoção do acesso à informação pública, transparência, controle e participação social.
+**[Colaboratório de Desenvolvimento e Participação da USP](http://colab.each.usp.br) (Colab-USP):** Grupo de pesquisa da Universidade de São Paulo (USP) que atua também com desenvolvimento de software e na formação de pessoa. Trabalha em parceria com governos e organizações da sociedade civil. Entre seus objetivos principais estão: democratização do acesso a bens culturais, diagnóstico do acesso a dados, promoção do acesso à informação pública, transparência, controle e participação social.
 
 **[MIT Media Lab’s Center for Civic Media](https://civic.mit.edu) (Civic Media):** Grupo de pesquisa que estuda e desenvolve novas tecnologias para facilitar a participação e engajamento cidadão. O grupo trabalha colaborativamente com diversas comunidades pelo mundo para criar e avaliar ferramentas que estimulam a coleta e divulgação de informação para a ação cidadã. Explora sistemas para analisar o ecossistema de mídia e amplificar as vozes de grupos marginalizados.
 
@@ -113,7 +113,7 @@ Um outro uso encontrado para a coleta de dados por cidadãos ocorre em campanhas
 
 Devido aos diferentes tipos de enfoque para o uso de celulares na coleta de dados, também variam os requisitos e as características dos aplicativos usados. Quando se espera que a coleta de dados seja feita por um governo, empresa ou grupo de pesquisa pode ser aceitável que a ferramenta exija alguma habilidade com programação. Por outro lado, quando falamos do uso de uma ferramenta por um grupo engajado de cidadãos ou uma organização que faz advocacy, a facilidade para criação de campanhas pode ser um ponto fundamental para a sua adoção [@sensr1;@mocomapps].
 
-Na literatura pesquisada, a maioria das ferramenta para coleta cidadã de dados encontradas não apresentam flexibilidade de escolha sobre quais dados serão coletados, possuem uma interface muito complexa para um não especialista, ou requerem um esforço de programação para adaptação da ferramenta a cada campanha. Essa crítica também é feita pelos autores do MoCoMapps e Sensr [@mocomapps;@sensr1].
+Na literatura pesquisada, a maioria das ferramentas para coleta cidadã de dados encontradas não apresentam flexibilidade de escolha sobre quais dados serão coletados, possuem uma interface muito complexa para um não especialista, ou requerem um esforço de programação para adaptação da ferramenta a cada campanha. Essa crítica também é feita pelos autores do MoCoMapps e Sensr [@mocomapps;@sensr1].
 
 No caso do MoCoMapps se trata de uma ferramenta para mapeamento de pontos de interesse de forma colaborativa, mas não para a coleta de dados numéricos em si. Dessa forma a ferramenta não se propõe a gerar relatórios ou análises das informações coletadas.
 
@@ -310,7 +310,7 @@ Na etapa de aquisição dos alimentos são encontrados problemas como: ausência
 
 Uma vez adquiridos podem ocorrer problemas na distribuição e armazenamento dos alimentos. Falhas no processo de recebimento dos produtos, por exemplo, podem permitir a aceitação de ingredientes de qualidade inferior à adquirida. Por se tratarem de alimentos, é necessário um cuidado especial no armazenamento, refrigerando-os quando necessário, e buscando evitar pragas, umidade etc. Porém, muitas escolas não dispõem de espaços e equipamentos adequados para este tipo de armazenamento.
 
-Segundo entrevistados, falhas na distribuição dos alimentos frequentemente fazem com que os próprios gestores das escolas tenham que buscar os alimentos em espaços onde são estocados pela prefeitura.
+Segundo entrevistas, falhas na distribuição dos alimentos frequentemente fazem com que os próprios gestores das escolas tenham que buscar os alimentos em espaços onde são estocados pela prefeitura.
 
 Já a etapa de preparação dos alimentos pode sofrer com a falta de recursos humanos ou de capacitação para a preparação das refeições. A falta de ingredientes pode levar ao descumprimento do cardápio elaborado por nutricionista, ou mesmo ao não provimento da merenda. O descumprimento do cardápio foi reclamação recorrente entre entrevistados, e a ausência de ingredientes, não raramente, leva professores e gestores das escolas a complementarem a merenda com recursos próprios.
 
@@ -377,14 +377,14 @@ No mesmo mês foi feita uma semana intensa de monitoramento buscando dar visibil
 
 Mais à frente os estudantes descobriram que a SEMED havia marcado um evento de degustação da merenda, para o qual eles não foram convidados. Eles pediram então, através do MP, para que pudessem participar, e foram atendidos. No dia 29 de junho de 2016 ocorre o evento de “[degustação da merenda](http://www.mppa.mp.br/index.php?action=Menu.interna&id=6850&class=N)”, além de possibilitar aos alunos degustar a merenda que deveria estar sendo servida em suas escolas, também serviu para informá-los sobre as etapas da merenda, desde a aquisição, distribuição, cardápio e modo de fazer, para que pudessem fiscalizá-la melhor.
 
-No dia 13 de setembro os pesquisadores do Civic e do Colab [foram para Santarém](http://colab.each.usp.br/?p=462) e encontraram pessoalmente pela primeira vez com as pessoas integrantes do MPEPEP, responsáveis pela organização da campanha e coleta dos dados. Ao longo de uma tarde os alunos, professores e pesquisadores discutiram diversas questões relacionadas à merenda, organização do grupo, dificuldades técnicas com a ferramenta, possíveis melhorias no questionário utilizado na coleta dos dados. Quanto ao questionário decidiu-se por duas alterações:
+No dia 13 de setembro os pesquisadores do CCM e do Colab-USP [foram para Santarém](http://colab.each.usp.br/?p=462) e encontraram pessoalmente pela primeira vez com as pessoas integrantes do MPEPEP, responsáveis pela organização da campanha e coleta dos dados. Ao longo de uma tarde os alunos, professores e pesquisadores discutiram diversas questões relacionadas à merenda, organização do grupo, dificuldades técnicas com a ferramenta, possíveis melhorias no questionário utilizado na coleta dos dados. Quanto ao questionário decidiu-se por duas alterações:
 
 -   Remoção da pergunta pedindo localização via GPS. Esta estava gerando dados imprecisos e não era necessária, uma vez que o local ficava implícito a partir do nome da escola escolhido na questão 3.
 -   Alteração da redação da pergunta pedindo uma foto do cardápio. A redação inicial (“Se houver, faça uma foto do cardápio divulgado”) estava confundindo os alunos, fazendo com que alguns tirassem fotos dos alimentos, quando o desejado eram fotos do documento com a listagem dos alimentos a serem servidos. A pergunta foi alterada para uma múltipla escolha, questionando se o cardápio foi ou não cumprido, ou se nem foi divulgado.
 
 A estratégia da organização da campanha era continuar expandindo-a para que mais pessoas participassem do monitoramento. Porém, nesse encontro com os pesquisadores, foi discutido que um aumento no número de participantes poderia aumentar a complexidade da análise dos dados. Nesse sentido a campanha acabou não ampliando significativamente o número de participantes nos meses seguintes.
 
-Dos dias 6 ao 9 de novembro ocorreu a segunda visita de um dos pesquisadores do Colab à cidade, com intenção de entrevistar envolvidos na campanha e aprender com eles sobre a experiência de uso do Monitorando. Essa visita foi um dos momentos chave para a coleta de boa parte das informações analisadas neste relatório.
+Dos dias 6 ao 9 de novembro ocorreu a segunda visita de um dos pesquisadores do Colab-USP à cidade, com intenção de entrevistar envolvidos na campanha e aprender com eles sobre a experiência de uso do Monitorando. Essa visita foi um dos momentos chave para a coleta de boa parte das informações analisadas neste relatório.
 
 No dia 11 de novembro foi feita, pela URE (Unidade Regional de Ensino, vinculada à Secretaria Estadual de Educação), uma capacitação com as merendeiras, um dos frutos da campanha, trazendo maior sensibilização sobre o tema.
 
@@ -435,7 +435,7 @@ O aplicativo foi então instalado no celular dos jovens e configurado para colet
 
 Para coordenar a campanha foi criada uma comissão composta por gestores, professores, coordenadores pedagógicos, estudantes e membros do MP. Foi criado também um grupo no Whatsapp, que seria o canal principal para que os estudantes dialogassem com o MP ao longo da campanha.
 
-No dia 10 de novembro ocorreu a visita de um dos pesquisadores do Colab à cidade, com intenção de entrevistar envolvidos na campanha e aprender com eles sobre a experiência de uso do Monitorando. Essa visita foi um dos momentos chave para a coleta de boa parte das informações analisadas neste documento.
+No dia 10 de novembro ocorreu a visita de um dos pesquisadores do Colab-USP à cidade, com intenção de entrevistar envolvidos na campanha e aprender com eles sobre a experiência de uso do Monitorando. Essa visita foi um dos momentos chave para a coleta de boa parte das informações analisadas neste documento.
 
 ### Dados Coletados
 
@@ -514,7 +514,7 @@ No mesmo sentido das diferenças descritas anteriormente, os dois casos também 
 
 Em Santarém, segundo entrevistas, a direção das escolas ficou mais atenta ao recebimento dos alimentos, não aceitando mais quando estes estão próximos do fim do prazo de validade. Algumas merendeiras também passaram a ter mais cuidado no preparo das refeições, chegando a pedir luvas para a realização de seu trabalho. Antes havia um sentimento de resignação por parte da comunidade escolar quanto a ausência ou baixa qualidade da merenda. Agora, mais pessoas estão dispostas a cobrar por melhorias no provimento da merenda.
 
-De maneira geral, apesar dos dados coletados através do Monitorando não terem sido amplamente divulgados ou utilizados pelo MP, a mera coleta deles pode ter contribuído para resultados positivos na merenda. Segundo entrevistados, a Secretaria de Educação, sentindo-se cobrada, estaria mais atenta à questão da merenda. Isso teria levado a melhorias nos alimentos distribuídos e menos atrasos na distribuição deles.
+De maneira geral, apesar dos dados coletados através do Monitorando não terem sido amplamente divulgados ou utilizados pelo MP, a mera coleta deles pode ter contribuído para resultados positivos na merenda. Segundo entrevistas, a Secretaria de Educação, sentindo-se cobrada, estaria mais atenta à questão da merenda. Isso teria levado a melhorias nos alimentos distribuídos e menos atrasos na distribuição deles.
 
 Apesar disso, ainda segundo entrevistas, já houve períodos no passado em que a merenda esteve melhor do que agora, com a campanha em andamento. E mesmo observando ao longo da duração da campanha, algumas pessoas afirmaram que no começo dela, quando estava mais ativa, a merenda teve uma melhora maior, que foi em parte se perdendo ao longo dos meses conforme a mobilização diminuiu. Algumas pessoas demonstraram certa frustração pela necessidade de constante cobrança quanto a merenda, que caso contrário voltaria a piorar.
 
@@ -531,15 +531,15 @@ Como descrito anteriormente, a dinâmica de desenvolvimento das campanhas foi si
 
 O fato das duas campanhas acompanhadas se proporem a monitorar um tema por um longo período de tempo também pode ter influenciado nas implementações. As campanhas piloto feitas com o Monitorando envolviam apenas um ou dois dias de monitoramento. Nesses casos, de campanhas curtas, talvez seja mais fácil que os coletores dos dados sejam as mesmas pessoas que fizeram o planejamento, e que haja uma auto avaliação logo ao final da coleta.
 
-Essas diferenças na forma de implementar as campanhas podem ter sido fatores que influenciaram para que o processo de coleta e análise dos dados, aparentemente, não tenha sido tão significativo para o aprendizado dos participantes sobre o tema monitorado.
+Aparentemente, a coleta e análise dos dados em si não contribuíram de maneira muito significativa para o aprendizado dos participantes sobre o tema monitorado. Tal fato pode estar relacionado com as diferenças na forma de implementar as campanhas, como descrito acima.
 
 Por outro lado, as formações realizadas pelo MP e demais parceiros parecem ter sido bastante significativas nos dois casos acompanhados. Elas teriam sido fundamentais tanto em Santarém como Ponta de Pedras para esclarecer aos estudantes que a merenda é um direito deles, e que precisa ser servida segundo a legislação. Essa informação parece ter sido crucial para despertar nos estudantes o desejo de cobrar melhorias para a merenda. Nesse sentido, também os ajudou a perceber quando a legislação que rege a merenda é descumprida.
 
 Em ambos os casos os estudantes parecem ter começado a valorizar mais a merenda. Alguns inclusive perdendo a vergonha de comê-la.
 
-Em Ponta de Pedras a conscientização sobre a merenda parece ter ficado mais restrita àqueles que participaram da formação ou da comissão da campanha. Segundo entrevistados os estudantes estão inclusive pesquisando por conta própria sobre o tema e enviando sugestões ao MP sobre melhorias para a merenda.
+Em Ponta de Pedras a conscientização sobre a merenda parece ter ficado mais restrita àqueles que participaram da formação ou da comissão da campanha. Segundo entrevistas, os estudantes estão inclusive pesquisando por conta própria sobre o tema e enviando sugestões ao MP sobre melhorias para a merenda.
 
-Em Santarém, como a mobilização foi maior e tiveram mais formações, a campanha parece ter conscientizado mais pessoas e em espaços mais diversos. Segundo entrevistados, gestores das escolas perceberam que precisam se dedicar mais no provimento da merenda.
+Em Santarém, como a mobilização foi maior e houve mais formações, a campanha parece ter conscientizado mais pessoas e em espaços mais diversos. Segundo entrevistas, gestores das escolas perceberam que precisam se dedicar mais no provimento da merenda.
 
 Além das formações, a semana de mobilização realizada pelo movimento em Santarém também parece ter sido significativa para atrair, para a questão da merenda, a atenção de pessoas tanto dentro como fora da escola. Um entrevistado apontou que o fato dos estudantes fazerem desenhos sobre a merenda que tinham e a que queriam ter os ajudou a refletir sobre a questão. O mesmo aconteceu a estudantes não participantes da campanha ao verem, na hora do intervalo, outros estudantes tirando fotos da merenda e perguntarem sobre o que se tratava.
 
@@ -584,7 +584,7 @@ O segundo caso ocorreu em uma escola que nunca havia tido merenda, em uma cidade
 
 Vale notar que nesses dois casos o Monitorando não parece ter ajudado diretamente na resolução dos problemas, mas sim a mobilização de uma forma geral.
 
-Outro aspecto interessante é a existência de um questionário feito pelo MPF para monitorar as situação das escolas no país. Esse questionário deve ser preenchido semestralmente pelas direções das escolas. Ele aborda vários aspectos da realidade escolar e não apenas a merenda. Porém, segundo entrevista, como o relatório é bastante extenso e em papel, se torna difícil para os próprios membros do MP o utilizarem depois. Ainda segundo entrevista, o Monitorando teria a vantagem de ser mais ágil e fornecer automaticamente os gráficos sobre os dados coletados.
+Outro aspecto interessante é a existência de um questionário feito pelo MPF para monitorar as situação das escolas no país. Esse questionário deve ser preenchido semestralmente pelas direções das escolas. Ele aborda vários aspectos da realidade escolar e não apenas a merenda. Porém, segundo entrevista, como o relatório é bastante extenso e em papel, é difícil para os próprios membros do MP o utilizarem depois. Ainda segundo entrevista, o Monitorando teria a vantagem de ser mais ágil e fornecer automaticamente os gráficos sobre os dados coletados.
 
 Percepção sobre Dados
 ---------------------
@@ -593,7 +593,7 @@ Pelo fato de poucas pessoas terem visto e usado os dados coletados através do M
 
 Apesar disso, uma entrevistada em Ponta de Pedras disse que, mesmo não tendo visto os dados coletados, por saber que ela os estava coletando para o MP, passou a se sentir parte das estatísticas governamentais.
 
-Em Santarém, onde a coordenação da campanha já possuía alguma prática no uso de dados, se torna difícil atestar mudanças de percepção, uma vez que o uso de dados já ocorria antes do início do acompanhamento por este projeto.
+Em Santarém, onde a coordenação da campanha já possuía alguma prática no uso de dados, é difícil atestar mudanças de percepção, uma vez que o uso de dados já ocorria antes do início do acompanhamento por este projeto.
 
 Desenvolvimento e Consolidação de Parcerias
 -------------------------------------------
@@ -738,7 +738,7 @@ Outro ponto relevante parece ser a apropriação da campanha por parte da comuni
 
 Também é apontado pela mesma metodologia, e cabe ressaltar aqui, a importância de propiciar aos participantes a oportunidade de verem os dados coletados para que compreendam melhor o processo e o fruto direto do trabalho que desempenham. Pode ser necessária a realização de encontros para auxiliar no uso e interpretação das visualizações da ferramenta. Tais encontros e discussões periódicas também seriam importantes para identificar possíveis erros na coleta dos dados (pela própria ferramenta ou pelo grupo) ou nos rumos da campanha.
 
-Dessa forma, apesar da ferramenta ter o potencial de facilitar a coleta, estruturação e análise dos dados, não se pode perder de vista a fundamental importância das pessoas e grupos que efetivamente farão uso dela e de que forma esse uso ocorrerá. Tal ideia seria exemplificada ao se verificarem alguns resultados positivos mesmo sem um uso direto dos dados coletados. Talvez possa ser dito que a ferramenta serviu principalmente como uma justificativa para reunir pessoas e uma guia para orientar a ação conjunta entre elas.
+Dessa forma, apesar da ferramenta ter o potencial de facilitar a coleta, estruturação e análise dos dados, não se pode perder de vista a fundamental importância das pessoas e grupos que efetivamente farão uso dela e de que forma esse uso ocorrerá. O fato de resultados positivos terem sido verificados mesmo sem um uso direto dos dados coletados é uma evidência desta ideia. Sendo assim, talvez possa ser dito que a ferramenta serviu principalmente como uma justificativa para reunir pessoas e uma guia para orientar a ação conjunta entre elas.
 
 Considerações Finais
 ====================
