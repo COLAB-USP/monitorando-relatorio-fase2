@@ -17,7 +17,7 @@
 		\fontfamily{pag}\fontsize{40pt}{60pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
 		\textbf{Monitorando a Cidade} \\
 		\fontsize{30pt}{60pt}\selectfont
-		Relatório Fase II
+		Relatório Ano 2016
 	}
 }
 \end{vplace}

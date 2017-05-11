@@ -1,6 +1,6 @@
 ---
 title: Monitorando a Cidade
-subtitle: Relatório Fase II
+subtitle: Relatório Ano 2016
 date: Maio de 2017
 lang: pt-BR
 classoption:
@@ -119,7 +119,7 @@ No caso do MoCoMapps se trata de uma ferramenta para mapeamento de pontos de int
 
 O Sensr é uma ferramenta que se propõe a permitir coleta cidadã de dados e análise dos mesmos. Mas aparentemente o projeto está inativo, suporta apenas smartphones iPhone, a exibição dos dados coletados é apenas em tabela, e o código fonte do projeto não está disponível.
 
-Nesse sentido, não foram encontradas ferramentas voltadas a proporcionar: facilidade para a criação de campanhas de coleta de dados por cidadãos não especialistas, flexibilidade para que os criadores das campanhas escolham quais dados desejariam coletar, e orientação no processo de criação da campanha, coleta, análise e uso dos dados.
+Nesse sentido, não foram encontradas ferramentas voltadas a proporcionar: facilidade para a criação de campanhas de coleta de dados por cidadãos não especialistas; flexibilidade para que os criadores das campanhas escolham quais dados desejariam coletar; orientação no processo de criação da campanha, coleta, análise e uso dos dados; e, principalmente a consolidação de todos esses passos do processo em uma única plataforma.
 
 Metodologia
 ===========
@@ -135,7 +135,7 @@ Acompanhamento e Atividades Desenvolvidas
 
 A participação dos pesquisadores nas atividades dos grupos parceiros se deu através de acompanhamento remoto (através de conversas pela internet) e encontros presenciais. A documentação e aprofundamento das discussões foi feita através de um grupo focal, 27 entrevistas (totalizando 17h de gravações), múltiplos encontros de reflexão e um diário de atividades.
 
-Foram feitas duas visitas a Santarém e uma a Ponta de Pedras (cidades onde os estudos de caso se desenvolveram). Na primeira visita (setembro de 2016) foi feito um grupo focal que envolveu cerca de 30 pessoas, entre professores e estudantes, tendo duração de cerca de 3h.
+Foram feitas duas visitas a Santarém e uma a Ponta de Pedras (cidades do estado do Pará, Brasil, onde os estudos de caso ocorreram). Na primeira visita (setembro de 2016) foi feito um grupo focal que envolveu cerca de 30 pessoas, entre professores e estudantes, tendo duração de cerca de 3h.
 
 Na segunda visita (novembro de 2016) foram realizadas entrevistas com diversas pessoas envolvidas nas campanhas, algumas delas representando instituições envolvidas em sua implantação e articulação. Foram 18 entrevistas em Santarém, 7 em Ponta de Pedras e 2 em Belém. Em Santarém participaram das entrevistas pessoas de 5 escolas estaduais, em Ponta de Pedra uma escola estadual e uma municipal. A seguir estão descritos os perfis das pessoas entrevistadas:
 
@@ -179,7 +179,7 @@ Desenvolvimento
 
 Desde o fim de 2013, o Monitorando tem sido desenvolvido pelo Center for Civic Media (CCM) em colaboração com parceiros brasileiros. O projeto foi inspirado inicialmente por diversas áreas de trabalho, incluindo o monitoramento de eleições ao redor do mundo e a popularização do uso de ferramentas baratas de monitoramento ambiental por cidadãos. Interessado em utilizar as poderosas ferramentas disponíveis em smartphones, como câmeras e GPS, já disponíveis para muitas pessoas, o time começou a explorar o potencial da coleta de dados por cidadãos para monitorar o progresso das promessas de campanha de governantes e encorajar o controle social.
 
-Revendo as ferramentas existentes para coleta de dados, o time identificou um número de lacunas. A maioria das ferramentas encontradas assumia um mínimo de conhecimento técnico e familiaridade com estruturas de dados, o que as tornava inacessível para a maioria das pessoas. As interfaces eram complexas, incluíam opções avançadas de direcionamento de questionário e usavam linguajar técnico. Algumas ferramentas também requerem configuração manual dos componentes, o que impede o uso direto das mesmas. O time do MIT notou, principalmente, a ausência de uma estruturação nas ferramentas que ajudasse a guiar a construção do processo de coleta dos dados.
+Revendo as ferramentas existentes para coleta de dados, o time identificou um número de lacunas. A maioria das ferramentas encontradas assumia um mínimo de conhecimento técnico e familiaridade com estruturas de dados, o que as tornava inacessível para a maioria das pessoas. As interfaces eram complexas, incluíam opções avançadas de direcionamento de questionário e usavam linguajar técnico. Algumas ferramentas também requeriam configuração manual dos componentes, o que impediu o uso das mesmas. O time do MIT notou, principalmente, a ausência de uma estruturação nas ferramentas que ajudasse a guiar a construção do processo de coleta dos dados.
 
 Metodologia das Oficinas
 ------------------------
@@ -445,7 +445,7 @@ Já sobre os dados coletados através do Monitorando em Ponta de Pedras, até o 
 **Número de registros coletados por dia**
 -
 *Fonte: [Campanha Égua da Merenda João](http://monitor.promisetracker.org/data/534609)*
-](./media/image15.png){width="6.5in" height="2.7083333333333335in"}
+](./media/image15.png){width="6in"}
 
 \newpage
 
@@ -453,13 +453,13 @@ Já sobre os dados coletados através do Monitorando em Ponta de Pedras, até o 
 **Porcentagem de respostas para a pergunta do questionário “Hoje teve merenda?”**
 -
 *Fonte: [Campanha Égua da Merenda João](http://monitor.promisetracker.org/data/534609)*
-](./media/image18.png){width="4.742187226596675in" height="3.1614588801399823in"}
+](./media/image18.png){width="4.1in"}
 
 ![
 **Fotos coletadas na campanha**
 -
 *Fonte: [Campanha Égua da Merenda João](http://monitor.promisetracker.org/data/534609)*
-](./media/image12.png){width="6.5in" height="0.9722222222222222in"}
+](./media/image12.png){width="6in"}
 
 
 Discussão
