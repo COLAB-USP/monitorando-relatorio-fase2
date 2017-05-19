@@ -25,7 +25,7 @@
 \usepackage[unicode=true]{hyperref}
 \PassOptionsToPackage{usenames,dvipsnames}{xcolor} % color is loaded by hyperref
 \hypersetup{
-            pdftitle={Monitorando a Cidade},
+            pdftitle={Monitorando a merenda no Pará},
             colorlinks=true,
             linkcolor=Maroon,
             citecolor=Blue,
@@ -75,16 +75,12 @@
 
 \input{extra.latex}
 
-\title{Monitorando a Cidade}
+\title{Monitorando a merenda no Pará}
 \providecommand{\subtitle}[1]{}
-\subtitle{Relatório Fase II}
+\subtitle{Uma experiência de coleta de dados para ação cidadã}
 \date{Maio de 2017}
 
 \begin{document}
-
-
-
-Baixar Versão PDF / Repositório
 
 \input{title.latex}
 
@@ -95,8 +91,8 @@ Baixar Versão PDF / Repositório
 \vspace{0.5cm}
 
 \textbf{\href{http://colab.each.usp.br}{Colaboratório de Desenvolvimento
-e Participação da USP} (Colab):} Grupo de pesquisa da Universidade de
-São Paulo (USP) que atua também com desenvolvimento de software e na
+e Participação da USP} (Colab-USP):} Grupo de pesquisa da Universidade
+de São Paulo (USP) que atua também com desenvolvimento de software e na
 formação de pessoa. Trabalha em parceria com governos e organizações da
 sociedade civil. Entre seus objetivos principais estão: democratização
 do acesso a bens culturais, diagnóstico do acesso a dados, promoção do
@@ -126,17 +122,18 @@ sinceros agradecimentos.
 
 \textbf{Financiamento}
 
-O financiamento desta pesquisa foi provido pelo Instituto Humanitas360.
+O financiamento desta pesquisa foi provido pelo
+\textbf{\href{https://humanitas360.org}{Instituto Humanitas360}}.
 
 \vfill
 
 \begin{center}
-\textbf{Maio de 2017} \\
-\vspace{1cm}
-\href{https://colab-usp.github.io/monitorando-relatorio-fase2}{Versão Online} \\
+\href{https://colab-usp.github.io/monitorando-relatorio-fase2}{Versão Online (HTML)} \\
 \href{https://github.com/colab-usp/monitorando-relatorio-fase2}{Repositório} \\
 \vspace{1cm}
 \href{http://creativecommons.org/licenses/by-sa/4.0}{\includegraphics[width=5.00000cm]{./media/by-sa.png}} \\
+\vspace{1cm}
+\textbf{Maio de 2017} \\
 \end{center}
 
 \vspace{2cm}
@@ -346,8 +343,8 @@ de campanhas pode ser um ponto fundamental para a sua adoção (Kim,
 Mankoff, e Paulos \protect\hyperlink{ref-sensr1}{2013}; Muller et al.
 \protect\hyperlink{ref-mocomapps}{2011}).
 
-Na literatura pesquisada, a maioria das ferramenta para coleta cidadã de
-dados encontradas não apresentam flexibilidade de escolha sobre quais
+Na literatura pesquisada, a maioria das ferramentas para coleta cidadã
+de dados encontradas não apresentam flexibilidade de escolha sobre quais
 dados serão coletados, possuem uma interface muito complexa para um não
 especialista, ou requerem um esforço de programação para adaptação da
 ferramenta a cada campanha. Essa crítica também é feita pelos autores do
@@ -367,9 +364,11 @@ tabela, e o código fonte do projeto não está disponível.
 
 Nesse sentido, não foram encontradas ferramentas voltadas a
 proporcionar: facilidade para a criação de campanhas de coleta de dados
-por cidadãos não especialistas, flexibilidade para que os criadores das
-campanhas escolham quais dados desejariam coletar, e orientação no
-processo de criação da campanha, coleta, análise e uso dos dados.
+por cidadãos não especialistas; flexibilidade para que os criadores das
+campanhas escolham quais dados desejariam coletar; orientação no
+processo de criação da campanha, coleta, análise e uso dos dados; e,
+principalmente a consolidação de todos esses passos do processo em uma
+única plataforma.
 
 \chapter{Metodologia}\label{metodologia}
 
@@ -409,19 +408,20 @@ Desenvolvidas}\label{acompanhamento-e-atividades-desenvolvidas}
 A participação dos pesquisadores nas atividades dos grupos parceiros se
 deu através de acompanhamento remoto (através de conversas pela
 internet) e encontros presenciais. A documentação e aprofundamento das
-discussões foi feita através de um grupo focal, 28 entrevistas
-(totalizando 18h de gravações), múltiplos encontros de reflexão e um
+discussões foi feita através de um grupo focal, 27 entrevistas
+(totalizando 17h de gravações), múltiplos encontros de reflexão e um
 diário de atividades.
 
-Foram feitas duas visitas a Santarém e uma a Ponta de Pedras (cidades
-onde os estudos de caso se desenvolveram). Na primeira visita (setembro
-de 2016) foi feito um grupo focal que envolveu cerca de 30 pessoas,
-entre professores e estudantes, tendo duração de cerca de 3h.
+Foram feitas duas visitas a Santarém e uma a Ponta de Pedras (cidades do
+estado do Pará, Brasil, onde os estudos de caso ocorreram). Na primeira
+visita (setembro de 2016) foi feito um grupo focal que envolveu cerca de
+30 pessoas, entre professores e estudantes, tendo duração de cerca de
+3h.
 
 Na segunda visita (novembro de 2016) foram realizadas entrevistas com
 diversas pessoas envolvidas nas campanhas, algumas delas representando
 instituições envolvidas em sua implantação e articulação. Foram 18
-entrevistas em Santarém, 8 em Ponta de Pedras e 2 em Belém. Em Santarém
+entrevistas em Santarém, 7 em Ponta de Pedras e 2 em Belém. Em Santarém
 participaram das entrevistas pessoas de 5 escolas estaduais, em Ponta de
 Pedra uma escola estadual e uma municipal. A seguir estão descritos os
 perfis das pessoas entrevistadas:
@@ -468,8 +468,6 @@ perfis das pessoas entrevistadas:
 \tightlist
 \item
   1 Representante do Ministério Público (articulador das campanhas)
-\item
-  1 Representante do Observatório Social de Belém
 \end{itemize}
 
 A escolha dos entrevistados foi feita buscando-se incluir a maior
@@ -526,8 +524,8 @@ assumia um mínimo de conhecimento técnico e familiaridade com estruturas
 de dados, o que as tornava inacessível para a maioria das pessoas. As
 interfaces eram complexas, incluíam opções avançadas de direcionamento
 de questionário e usavam linguajar técnico. Algumas ferramentas também
-requerem configuração manual dos componentes, o que impede o uso direto
-das mesmas. O time do MIT notou, principalmente, a ausência de uma
+requeriam configuração manual dos componentes, o que impediu o uso das
+mesmas. O time do MIT notou, principalmente, a ausência de uma
 estruturação nas ferramentas que ajudasse a guiar a construção do
 processo de coleta dos dados.
 
@@ -755,7 +753,7 @@ Em ambos os estudos de caso dois atores locais foram bastante
 significativos para o surgimento e desenvolvimento das campanhas de
 monitoramento:
 
-O primeiro sendo o \textbf{\href{http://www.osdebelem.org}{Observatório
+O primeiro sendo o \textbf{\href{http://www.osbelem.org}{Observatório
 Social de Belém} (OSB),} Organização da Sociedade Civil de Interesse
 Público que integra a rede de
 \href{http://osbrasil.org.br}{Observatórios Sociais do Brasil}. O OSB
@@ -887,9 +885,9 @@ necessário, e buscando evitar pragas, umidade etc. Porém, muitas escolas
 não dispõem de espaços e equipamentos adequados para este tipo de
 armazenamento.
 
-Segundo entrevistados, falhas na distribuição dos alimentos
-frequentemente fazem com que os próprios gestores das escolas tenham que
-buscar os alimentos em espaços onde são estocados pela prefeitura.
+Segundo entrevistas, falhas na distribuição dos alimentos frequentemente
+fazem com que os próprios gestores das escolas tenham que buscar os
+alimentos em espaços onde são estocados pela prefeitura.
 
 Já a etapa de preparação dos alimentos pode sofrer com a falta de
 recursos humanos ou de capacitação para a preparação das refeições. A
@@ -1069,7 +1067,7 @@ deveria estar sendo servida em suas escolas, também serviu para
 informá-los sobre as etapas da merenda, desde a aquisição, distribuição,
 cardápio e modo de fazer, para que pudessem fiscalizá-la melhor.
 
-No dia 13 de setembro os pesquisadores do Civic e do Colab
+No dia 13 de setembro os pesquisadores do CCM e do Colab-USP
 \href{http://colab.each.usp.br/?p=462}{foram para Santarém} e
 encontraram pessoalmente pela primeira vez com as pessoas integrantes do
 MPEPEP, responsáveis pela organização da campanha e coleta dos dados. Ao
@@ -1103,8 +1101,8 @@ Nesse sentido a campanha acabou não ampliando significativamente o
 número de participantes nos meses seguintes.
 
 Dos dias 6 ao 9 de novembro ocorreu a segunda visita de um dos
-pesquisadores do Colab à cidade, com intenção de entrevistar envolvidos
-na campanha e aprender com eles sobre a experiência de uso do
+pesquisadores do Colab-USP à cidade, com intenção de entrevistar
+envolvidos na campanha e aprender com eles sobre a experiência de uso do
 Monitorando. Essa visita foi um dos momentos chave para a coleta de boa
 parte das informações analisadas neste relatório.
 
@@ -1207,11 +1205,11 @@ professores, coordenadores pedagógicos, estudantes e membros do MP. Foi
 criado também um grupo no Whatsapp, que seria o canal principal para que
 os estudantes dialogassem com o MP ao longo da campanha.
 
-No dia 10 de novembro ocorreu a visita de um dos pesquisadores do Colab
-à cidade, com intenção de entrevistar envolvidos na campanha e aprender
-com eles sobre a experiência de uso do Monitorando. Essa visita foi um
-dos momentos chave para a coleta de boa parte das informações analisadas
-neste documento.
+No dia 10 de novembro ocorreu a visita de um dos pesquisadores do
+Colab-USP à cidade, com intenção de entrevistar envolvidos na campanha e
+aprender com eles sobre a experiência de uso do Monitorando. Essa visita
+foi um dos momentos chave para a coleta de boa parte das informações
+analisadas neste documento.
 
 \subsection{Dados Coletados}\label{dados-coletados-1}
 
@@ -1223,7 +1221,7 @@ exemplos dos gráficos e fotos da campanha.
 
 \begin{figure}
 \centering
-\includegraphics[width=6.50000in,height=2.70833in]{./media/image15.png}
+\includegraphics[width=6.00000in]{./media/image15.png}
 \caption{\textbf{Número de registros coletados por dia} - \emph{Fonte:
 \href{http://monitor.promisetracker.org/data/534609}{Campanha Égua da
 Merenda João}}}
@@ -1233,7 +1231,7 @@ Merenda João}}}
 
 \begin{figure}
 \centering
-\includegraphics[width=4.74219in,height=3.16146in]{./media/image18.png}
+\includegraphics[width=4.10000in]{./media/image18.png}
 \caption{\textbf{Porcentagem de respostas para a pergunta do
 questionário ``Hoje teve merenda?''} - \emph{Fonte:
 \href{http://monitor.promisetracker.org/data/534609}{Campanha Égua da
@@ -1242,7 +1240,7 @@ Merenda João}}}
 
 \begin{figure}
 \centering
-\includegraphics[width=6.50000in,height=0.97222in]{./media/image12.png}
+\includegraphics[width=6.00000in]{./media/image12.png}
 \caption{\textbf{Fotos coletadas na campanha} - \emph{Fonte:
 \href{http://monitor.promisetracker.org/data/534609}{Campanha Égua da
 Merenda João}}}
@@ -1392,9 +1390,9 @@ melhorias no provimento da merenda.
 De maneira geral, apesar dos dados coletados através do Monitorando não
 terem sido amplamente divulgados ou utilizados pelo MP, a mera coleta
 deles pode ter contribuído para resultados positivos na merenda. Segundo
-entrevistados, a Secretaria de Educação, sentindo-se cobrada, estaria
-mais atenta à questão da merenda. Isso teria levado a melhorias nos
-alimentos distribuídos e menos atrasos na distribuição deles.
+entrevistas, a Secretaria de Educação, sentindo-se cobrada, estaria mais
+atenta à questão da merenda. Isso teria levado a melhorias nos alimentos
+distribuídos e menos atrasos na distribuição deles.
 
 Apesar disso, ainda segundo entrevistas, já houve períodos no passado em
 que a merenda esteve melhor do que agora, com a campanha em andamento. E
@@ -1442,10 +1440,10 @@ curtas, talvez seja mais fácil que os coletores dos dados sejam as
 mesmas pessoas que fizeram o planejamento, e que haja uma auto avaliação
 logo ao final da coleta.
 
-Essas diferenças na forma de implementar as campanhas podem ter sido
-fatores que influenciaram para que o processo de coleta e análise dos
-dados, aparentemente, não tenha sido tão significativo para o
-aprendizado dos participantes sobre o tema monitorado.
+Aparentemente, a coleta e análise dos dados em si não contribuíram de
+maneira muito significativa para o aprendizado dos participantes sobre o
+tema monitorado. Tal fato pode estar relacionado com as diferenças na
+forma de implementar as campanhas, como descrito acima.
 
 Por outro lado, as formações realizadas pelo MP e demais parceiros
 parecem ter sido bastante significativas nos dois casos acompanhados.
@@ -1461,13 +1459,13 @@ merenda. Alguns inclusive perdendo a vergonha de comê-la.
 
 Em Ponta de Pedras a conscientização sobre a merenda parece ter ficado
 mais restrita àqueles que participaram da formação ou da comissão da
-campanha. Segundo entrevistados os estudantes estão inclusive
-pesquisando por conta própria sobre o tema e enviando sugestões ao MP
-sobre melhorias para a merenda.
+campanha. Segundo entrevistas, os estudantes estão inclusive pesquisando
+por conta própria sobre o tema e enviando sugestões ao MP sobre
+melhorias para a merenda.
 
-Em Santarém, como a mobilização foi maior e tiveram mais formações, a
+Em Santarém, como a mobilização foi maior e houve mais formações, a
 campanha parece ter conscientizado mais pessoas e em espaços mais
-diversos. Segundo entrevistados, gestores das escolas perceberam que
+diversos. Segundo entrevistas, gestores das escolas perceberam que
 precisam se dedicar mais no provimento da merenda.
 
 Além das formações, a semana de mobilização realizada pelo movimento em
@@ -1608,10 +1606,9 @@ MPF para monitorar as situação das escolas no país. Esse questionário
 deve ser preenchido semestralmente pelas direções das escolas. Ele
 aborda vários aspectos da realidade escolar e não apenas a merenda.
 Porém, segundo entrevista, como o relatório é bastante extenso e em
-papel, se torna difícil para os próprios membros do MP o utilizarem
-depois. Ainda segundo entrevista, o Monitorando teria a vantagem de ser
-mais ágil e fornecer automaticamente os gráficos sobre os dados
-coletados.
+papel, é difícil para os próprios membros do MP o utilizarem depois.
+Ainda segundo entrevista, o Monitorando teria a vantagem de ser mais
+ágil e fornecer automaticamente os gráficos sobre os dados coletados.
 
 \section{Percepção sobre Dados}\label{percepuxe7uxe3o-sobre-dados}
 
@@ -1624,9 +1621,8 @@ tendo visto os dados coletados, por saber que ela os estava coletando
 para o MP, passou a se sentir parte das estatísticas governamentais.
 
 Em Santarém, onde a coordenação da campanha já possuía alguma prática no
-uso de dados, se torna difícil atestar mudanças de percepção, uma vez
-que o uso de dados já ocorria antes do início do acompanhamento por este
-projeto.
+uso de dados, é difícil atestar mudanças de percepção, uma vez que o uso
+de dados já ocorria antes do início do acompanhamento por este projeto.
 
 \section{Desenvolvimento e Consolidação de
 Parcerias}\label{desenvolvimento-e-consolidauxe7uxe3o-de-parcerias}
@@ -2038,11 +2034,11 @@ própria ferramenta ou pelo grupo) ou nos rumos da campanha.
 Dessa forma, apesar da ferramenta ter o potencial de facilitar a coleta,
 estruturação e análise dos dados, não se pode perder de vista a
 fundamental importância das pessoas e grupos que efetivamente farão uso
-dela e de que forma esse uso ocorrerá. Tal ideia seria exemplificada ao
-se verificarem alguns resultados positivos mesmo sem um uso direto dos
-dados coletados. Talvez possa ser dito que a ferramenta serviu
-principalmente como uma justificativa para reunir pessoas e uma guia
-para orientar a ação conjunta entre elas.
+dela e de que forma esse uso ocorrerá. O fato de resultados positivos
+terem sido verificados mesmo sem um uso direto dos dados coletados é uma
+evidência desta ideia. Sendo assim, talvez possa ser dito que a
+ferramenta serviu principalmente como uma justificativa para reunir
+pessoas e uma guia para orientar a ação conjunta entre elas.
 
 \chapter{Considerações Finais}\label{considerauxe7uxf5es-finais}
 

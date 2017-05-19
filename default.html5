@@ -40,7 +40,7 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
-<div class="other-links"><a href="https://colab-usp.github.io/monitorando-relatorio-fase2/monitorando-fase2.pdf">Baixar Versão PDF</a> / <a href="https://github.com/colab-usp/monitorando-relatorio-fase2">Repositório</a></div>
+<div class="other-links"><a href="https://colab-usp.github.io/monitorando-relatorio-fase2/relatorio-monitorando.pdf">Baixar Versão PDF</a> / <a href="https://github.com/colab-usp/monitorando-relatorio-fase2">Repositório</a></div>
 $if(title)$
 <header>
 <h1 class="title">$title$</h1>

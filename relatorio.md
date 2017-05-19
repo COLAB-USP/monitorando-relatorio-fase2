@@ -1,6 +1,6 @@
 ---
-title: Monitorando a Cidade
-subtitle: Relatório Ano 2016
+title: Monitorando a merenda no Pará
+subtitle: Uma experiência de coleta de dados para ação cidadã
 date: Maio de 2017
 lang: pt-BR
 classoption:

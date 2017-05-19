@@ -11,13 +11,13 @@
 \transparent{0.8}
 \colorbox{black}{
 	\transparent{1.0}
-	\parbox[c][0.6\linewidth]{1.0\linewidth}{
+	\parbox[c][0.5\linewidth]{0.97\linewidth}{
 		\color{white}
 		\centering 
-		\fontfamily{pag}\fontsize{40pt}{60pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
-		\textbf{Monitorando a Cidade} \\
-		\fontsize{30pt}{60pt}\selectfont
-		Relatório Ano 2016
+		\fontfamily{pag}\fontsize{34pt}{60pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+		\noindent \textbf{Monitorando a merenda no Pará} \\
+		\fontsize{25pt}{60pt}\selectfont
+		Uma experiência de coleta de dados para ação cidadã
 	}
 }
 \end{vplace}
