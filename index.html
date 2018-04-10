@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Andrés M. R. Martano¹, Gisele S. Craveiro¹, Emilie Reiser², Marisa Villi¹">
   <title>Monitorando a merenda no Pará</title>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="pandoc.css">
@@ -78,17 +79,18 @@
 </nav>
 
 <hr>
-<p><strong>Sobre os autores</strong></p>
+<p><strong>Autoria</strong></p>
 
-<p><strong><a href="http://colab.each.usp.br">Colaboratório de Desenvolvimento e Participação da USP</a> (Colab-USP):</strong> Grupo de pesquisa da Universidade de São Paulo (USP) que atua também com desenvolvimento de software e na formação de pessoa. Trabalha em parceria com governos e organizações da sociedade civil. Entre seus objetivos principais estão: democratização do acesso a bens culturais, diagnóstico do acesso a dados, promoção do acesso à informação pública, transparência, controle e participação social.</p>
-<p><strong><a href="https://civic.mit.edu">MIT Media Lab’s Center for Civic Media</a> (Civic Media):</strong> Grupo de pesquisa que estuda e desenvolve novas tecnologias para facilitar a participação e engajamento cidadão. O grupo trabalha colaborativamente com diversas comunidades pelo mundo para criar e avaliar ferramentas que estimulam a coleta e divulgação de informação para a ação cidadã. Explora sistemas para analisar o ecossistema de mídia e amplificar as vozes de grupos marginalizados.</p>
+<p><em>Andrés M. R. Martano¹, Gisele S. Craveiro¹, Emilie Reiser², Marisa Villi¹</em></p>
+
+<p>¹<strong><a href="http://colab.each.usp.br">Colaboratório de Desenvolvimento e Participação da USP</a> (Colab-USP):</strong> Grupo de pesquisa da Universidade de São Paulo (USP) que atua também com desenvolvimento de software e na formação de pessoa. Trabalha em parceria com governos e organizações da sociedade civil. Entre seus objetivos principais estão: democratização do acesso a bens culturais, diagnóstico do acesso a dados, promoção do acesso à informação pública, transparência, controle e participação social.</p>
+<p>²<strong><a href="https://civic.mit.edu">MIT Media Lab’s Center for Civic Media</a> (Civic Media):</strong> Grupo de pesquisa que estuda e desenvolve novas tecnologias para facilitar a participação e engajamento cidadão. O grupo trabalha colaborativamente com diversas comunidades pelo mundo para criar e avaliar ferramentas que estimulam a coleta e divulgação de informação para a ação cidadã. Explora sistemas para analisar o ecossistema de mídia e amplificar as vozes de grupos marginalizados.</p>
 
 <p><strong>Agradecimentos</strong></p>
 <p>Este trabalho só foi possível graças ao apoio do Instituto Humanitas360 e colaboração do Ministério Público do Estado do Pará (Belém, Santarém e Ponta de Pedras), do Observatório Social de Belém, do Movimento Pacto Estudantil Pela Educação no Pará, do Projeto SOL e de outros parceiros de Santarém, Belém, Ponta de Pedras, Ilhabela e São Paulo. Nossos sinceros agradecimentos.</p>
 
 <p><strong>Financiamento</strong></p>
 <p>O financiamento desta pesquisa foi provido pelo <strong><a href="https://humanitas360.org">Instituto Humanitas360</a></strong>.</p>
-
 
 
 
@@ -120,12 +122,12 @@
 </ol></li>
 </ol>
 <h1 id="revisão-bibliográfica">Revisão Bibliográfica</h1>
-<p>Assim como os valores de uma sociedade podem mudar ao longo do tempo, sua visão sobre o que seria um &quot;bom cidadão&quot; também pode ser modificada. Analisando a história dos Estados Unidos, <span class="citation" data-cites="goodciti">Schudson (<a href="#ref-goodciti">1998</a>)</span> argumenta que a visão predominante sobre o papel do cidadão foi sendo alterada e mesclada com concepções anteriores, conforme as estruturas da sociedade também mudavam.</p>
+<p>Assim como os valores de uma sociedade podem mudar ao longo do tempo, sua visão sobre o que seria um “bom cidadão” também pode ser modificada. Analisando a história dos Estados Unidos, <span class="citation" data-cites="goodciti">Schudson (<a href="#ref-goodciti">1998</a>)</span> argumenta que a visão predominante sobre o papel do cidadão foi sendo alterada e mesclada com concepções anteriores, conforme as estruturas da sociedade também mudavam.</p>
 <p>O surgimento da internet e demais tecnologias relacionadas também teriam impactado a visão sobre o papel do cidadão, reforçando a ideia de que ele passaria a buscar muito mais informações para basear sua atividade política. <span class="citation" data-cites="goodciti">Schudson (<a href="#ref-goodciti">1998</a>)</span> coloca que, apesar da maior disponibilidade de informações, seria questionável acreditar que a maioria das pessoas realmente se aprofundaria em diversos temas buscando uma atuação política mais consciente.</p>
 <p>O mesmo autor argumenta a favor de cidadãos que não necessariamente dominariam vários temas, mas estariam atentos para entrarem em ação em casos específicos quando necessário, por exemplo, em uma falha das instituições responsáveis. Nessa visão, a atuação do cidadão não estaria restrita às eleições e nem aos canais tradicionais, mas também não seria alheia às instituições, chegando a agir em parceria com estas. A tecnologia teria então um papel importante para facilitar a participação de mais pessoas e de maneiras mais variadas.</p>
 <p>Nesse sentido, o uso de aparelhos celulares tem ganhado relevância. Com a queda dos preços ao longo das últimas décadas, a adoção deles pela população mundial se intensificou, chegando aos 93% segundo <a href="http://data.worldbank.org/products/wdi">relatório do World Bank de 2014</a>. Já especificamente quanto aos smartphones, sua adoção em 2015 teria chegado a 43%, segundo <a href="http://www.pewglobal.org/2016/02/22/smartphone-ownership-and-internet-usage-continues-to-climb-in-emerging-economies/">pesquisa da Pew Research Center</a>. Os variados sensores que eles possuem, e a portabilidade que permitem, criaram um universo de possibilidades de aplicação em diversas áreas, incluindo a coleta de dados por cidadãos buscando contribuir com suas comunidades <span class="citation" data-cites="mobility2016 sensr1">(Birenboim e Shoval <a href="#ref-mobility2016">2016</a>; Kim, Mankoff, e Paulos <a href="#ref-sensr1">2013</a>)</span>.</p>
 <p>Aproximando do contexto brasileiro, a <a href="http://cetic.br/pesquisa/domicilios/indicadores">TIC domicílio de 2015</a> revelou que 93% dos domicílios têm telefone celular e 84% dos indivíduos possuem celular. Isso é ainda mais intenso quando se observa o público jovem: 91% daqueles com 16 a 24 anos possuem celular. No mesmo sentido, segundo o estudo <a href="http://fundacaotelefonica.org.br/wp-content/uploads/pdfs/Juventude-Conectada-2016.pdf">Juventude Conectada de 2016</a>, 85% dos jovens usuários de internet usam o celular como principal dispositivo de acesso à internet.</p>
-<p><span class="citation" data-cites="partsens2006">Burke et al. (<a href="#ref-partsens2006">2006</a>)</span> discute o potencial uso dos celulares e da internet para o que chama de &quot;participatory sensing&quot;. Nessa visão os cidadãos, através de seus celulares, funcionariam como uma rede de sensores monitorando diversos aspectos de uma cidade, seja coletando dados automaticamente pelos sensores do aparelho ou solicitando aos usuários o preenchimento de questionários, a captura de fotos etc. Essa abordagem tem sido comumente adotada por propostas relacionadas à ideia de Cidades Inteligentes, onde os dados coletados seriam utilizados por gestores públicos ou empresas para resolver problemas ou planejar o espaço urbano.</p>
+<p><span class="citation" data-cites="partsens2006">Burke et al. (<a href="#ref-partsens2006">2006</a>)</span> discute o potencial uso dos celulares e da internet para o que chama de “participatory sensing”. Nessa visão os cidadãos, através de seus celulares, funcionariam como uma rede de sensores monitorando diversos aspectos de uma cidade, seja coletando dados automaticamente pelos sensores do aparelho ou solicitando aos usuários o preenchimento de questionários, a captura de fotos etc. Essa abordagem tem sido comumente adotada por propostas relacionadas à ideia de Cidades Inteligentes, onde os dados coletados seriam utilizados por gestores públicos ou empresas para resolver problemas ou planejar o espaço urbano.</p>
 <p>Os celulares também têm sido aplicados em respostas a desastres e emergências. Sua flexibilidade, portabilidade e disseminação tem sido pontos chave para a coleta de informações em tempo real auxiliando nessas situações de crise <span class="citation" data-cites="ushahidi2012 disaster">(Wachanga <a href="#ref-ushahidi2012">2012</a>; Nelson, Steckler, e Stamberger <a href="#ref-disaster">2011</a>)</span>.</p>
 <p>O uso de celulares para a coleta de dados também despertou interesse para fins de ciência cidadã <span class="citation" data-cites="citisci2009">(Silvertown <a href="#ref-citisci2009">2009</a>)</span>. Nesse contexto as campanhas de coleta de dados são criadas por cientistas que pedem ao público em geral que os ajudem, encaminhando informações que são então usadas em pesquisas científicas.</p>
 <p>Um outro uso encontrado para a coleta de dados por cidadãos ocorre em campanhas criadas por organizações que buscam monitorar alguma causa pela qual advogam, como a qualidade do ar ou da água <span class="citation" data-cites="sensr1">(Kim, Mankoff, e Paulos <a href="#ref-sensr1">2013</a>)</span>.</p>
@@ -135,7 +137,7 @@
 <p>O Sensr é uma ferramenta que se propõe a permitir coleta cidadã de dados e análise dos mesmos. Mas aparentemente o projeto está inativo, suporta apenas smartphones iPhone, a exibição dos dados coletados é apenas em tabela, e o código fonte do projeto não está disponível.</p>
 <p>Nesse sentido, não foram encontradas ferramentas voltadas a proporcionar: facilidade para a criação de campanhas de coleta de dados por cidadãos não especialistas; flexibilidade para que os criadores das campanhas escolham quais dados desejariam coletar; orientação no processo de criação da campanha, coleta, análise e uso dos dados; e, principalmente a consolidação de todos esses passos do processo em uma única plataforma.</p>
 <h1 id="metodologia">Metodologia</h1>
-<p>A metodologia adotada por esse trabalho segue a linha da Pesquisa Ação (PA). Esta, segundo <span class="citation" data-cites="pesqacao">Thiollent (<a href="#ref-pesqacao">2011</a>)</span>, é &quot;um tipo de pesquisa social com base empírica que é concebida e realizada em estreita associação com uma ação ou com a resolução de um problema coletivo e no qual os pesquisadores e os participantes representativos da situação ou do problema estão envolvidos de modo cooperativo ou participativo&quot;.</p>
+<p>A metodologia adotada por esse trabalho segue a linha da Pesquisa Ação (PA). Esta, segundo <span class="citation" data-cites="pesqacao">Thiollent (<a href="#ref-pesqacao">2011</a>)</span>, é “um tipo de pesquisa social com base empírica que é concebida e realizada em estreita associação com uma ação ou com a resolução de um problema coletivo e no qual os pesquisadores e os participantes representativos da situação ou do problema estão envolvidos de modo cooperativo ou participativo”.</p>
 <p>Nesse sentido, a PA valoriza a discussão e argumentação como forma de construção do conhecimento e, apesar de reconhecer a importância de estudos quantitativos, afirma que nem sempre eles são a forma adequada de se abordar uma questão. A lógica formal, apesar de rigorosa, não consegue capturar toda a realidade e muitas vezes faz simplificações artificiais que não ajudam a resolver os problemas estudados. A PA, por sua vez, se coloca como uma ferramenta de estudo para situações de difícil repetibilidade, onde se compreende que cada caso é único, mas que através deles há lições a serem aprendidas, buscando-se assim contribuir com o conhecimento teórico relacionado.</p>
 <p>Tendo isso em vista, a escolha da PA como metodologia para este trabalho se deu por diversos motivos, entre eles: o estudo se desenvolveu em um ambiente de variáveis não controladas, influenciadas simultaneamente por diversos atores; os resultados, muitas vezes apenas mensuráveis a longo prazo, são consequência de múltiplas causas; a questão abordada envolveu a dinâmica de pequenos e médios grupos; houve participação dos pesquisadores e grupos locais na elaboração das ações e reflexões; além do fato de que a própria metodologia estudada se aproxima dos princípios e práticas da pesquisa-ação, ao propor que os próprios envolvidos no contexto sejam pesquisadores de suas realidades.</p>
 <h2 id="acompanhamento-e-atividades-desenvolvidas">Acompanhamento e Atividades Desenvolvidas</h2>
@@ -186,7 +188,7 @@
 </ul>
 <p>A metodologia para a aplicação de uma oficina ou criação de nova campanha com o Monitorando está documentada no <a href="http://monitor.promisetracker.org/pt-BR/guides">Guia de Facilitação</a>, disponível no site da plataforma. Este foi desenvolvido para compartilhar a metodologia usada para introduzir grupos à ferramenta e guiá-los através do processo de desenho e implementação das campanhas. Esta metodologia inclui sugestões que reforçam o caráter colaborativo e reflexivo do projeto, induzindo a um tipo de desenho de campanha. Contudo, a plataforma busca ser flexível para ser utilizada de formas diferentes daquela para a qual foi concebida inicialmente, dado que é uma ferramenta livre.</p>
 <figure>
-<img src="./media/image16.jpg" alt="Fases da Metodologia - Fonte: autoria própria" width="624" height="350" /><figcaption><strong>Fases da Metodologia</strong> - <em>Fonte: autoria própria</em></figcaption>
+<img src="./media/image16.jpg" alt="Fases da Metodologia - Fonte: autoria própria" style="width:6.5in;height:3.65278in" /><figcaption><strong>Fases da Metodologia</strong> - <em>Fonte: autoria própria</em></figcaption>
 </figure>
 <h3 id="identificando-prioridades">Identificando prioridades</h3>
 <p>O primeiro passo é a discussão sobre os principais desafios enfrentados pelos participantes em suas comunidades. Recomenda-se que os desafios escolhidos sejam relacionados à infraestrutura ou serviços, de forma que seja tangível documentá-los através de celulares, com fotos ou observando-os e fazendo anotações.</p>
@@ -202,7 +204,7 @@
 <p>Revendo os dados que podem ser coletados pela plataforma (imagem, localização, data, questão de múltipla escolha, texto livre), os participantes rascunham o questionário que eles desejam que os respondentes preencham toda vez que coletarem dados para a campanha.</p>
 <p>O grupo segue então para a plataforma, criando a campanha e incluindo informações levantadas nesses passos iniciais, como o assunto abordado, o público alvo dos dados a serem coletados e o questionário que guiará a coleta dos dados.</p>
 <h3 id="coleta-dos-dados">Coleta dos dados</h3>
-<p>Uma vez com a campanha estruturada, os participantes iniciam a coleta dos dados. Inicialmente a campanha é lançada em modo &quot;teste&quot;, permitindo aos participantes experimentarem o aplicativo para celular, praticarem a coleta dos dados e avaliarem os indicadores escolhidos. O grupo é encorajado a ir para campo e testar o questionário construído. Após essa fase de experimentação, o grupo se reúne para discutir as seguintes questões:</p>
+<p>Uma vez com a campanha estruturada, os participantes iniciam a coleta dos dados. Inicialmente a campanha é lançada em modo “teste”, permitindo aos participantes experimentarem o aplicativo para celular, praticarem a coleta dos dados e avaliarem os indicadores escolhidos. O grupo é encorajado a ir para campo e testar o questionário construído. Após essa fase de experimentação, o grupo se reúne para discutir as seguintes questões:</p>
 <ul>
 <li>Existem no questionário perguntas que não fazem sentido?</li>
 <li>Há outras perguntas que gostariam de incluir?</li>
@@ -241,9 +243,9 @@
 <p>No Brasil, o principal programa referente à merenda é o Programa Nacional de Alimentação Escolar (PNEA), que atende a todos os alunos matriculados na rede pública de educação básica. Originado a partir de outros programas que remontam à década de 40, teve sua estrutura alterada ao longo dos anos e foi apenas em 1979 que passou a receber o nome de merenda escolar <span class="citation" data-cites="fndehist">(Fundo Nacional de Desenvolvimento da Educação <a href="#ref-fndehist">2015</a><a href="#ref-fndehist">a</a>)</span>.</p>
 <p>Uma das mudanças sofrida pelo programa foi a descentralização. Até 1994, os cardápios, a aquisição, a distribuição e o controle de qualidade dos alimentos era feita por um órgão federal. A partir de então, os recursos passaram a ser repassados para os municípios, ou para o estado quando o município não tivesse condições de assumir o provimento da merenda.</p>
 <p>Em 2000 foram instituídos os Conselhos de Alimentação Escolar (CAE), órgãos deliberativos e fiscalizadores da execução do programa, formados por representantes de entidades civis organizadas, trabalhadores da educação, discentes, pais de alunos e representantes do poder Executivo.</p>
-<p>Em 2001 foi estipulada a &quot;obrigatoriedade de que 70% dos recursos transferidos pelo governo federal [fossem] aplicados exclusivamente em produtos básicos e o respeito aos hábitos alimentares regionais e à vocação agrícola do município, fomentando o desenvolvimento da economia local&quot;.</p>
+<p>Em 2001 foi estipulada a “obrigatoriedade de que 70% dos recursos transferidos pelo governo federal [fossem] aplicados exclusivamente em produtos básicos e o respeito aos hábitos alimentares regionais e à vocação agrícola do município, fomentando o desenvolvimento da economia local”.</p>
 <p>Em 2006 passou a ser exigida a presença de nutricionista como responsável técnico pela merenda servida. E em 2009 o PNAE foi estendido a toda a rede pública de educação básica, passando a exigir que 30% do repasse dos recursos fosse investido na aquisição de produtos da agricultura familiar.</p>
-<p>Atualmente, os repasses feitos pelo governo federal para cada município ou estado são baseados nos dados do censo do ano anterior. Os valores por dia letivo para cada aluno são definidos de acordo com a etapa e modalidade de ensino. Para alunos do ensino fundamental, médio e educação de jovens e adultos o valor em 2015 foi de R$0,30. Quando necessário, é esperado que o estado complemente o valor com recurso próprio. Segundo estimativas do governo, o programa atendeu em 2014 cerca de 42 milhões de alunos, com um investimento de R$3,6 bilhões <span class="citation" data-cites="fndeapre cartilhamerenda">(Fundo Nacional de Desenvolvimento da Educação <a href="#ref-fndeapre">2015</a><a href="#ref-fndeapre">b</a>; Fundo Nacional de Desenvolvimento da Educação <a href="#ref-cartilhamerenda">2014</a>)</span>.</p>
+<p>Atualmente, os repasses feitos pelo governo federal para cada município ou estado são baseados nos dados do censo do ano anterior. Os valores por dia letivo para cada aluno são definidos de acordo com a etapa e modalidade de ensino. Para alunos do ensino fundamental, médio e educação de jovens e adultos o valor em 2015 foi de R$0,30. Quando necessário, é esperado que o estado complemente o valor com recurso próprio. Segundo estimativas do governo, o programa atendeu em 2014 cerca de 42 milhões de alunos, com um investimento de R$3,6 bilhões <span class="citation" data-cites="fndeapre cartilhamerenda">(Fundo Nacional de Desenvolvimento da Educação <a href="#ref-fndeapre">2015</a><a href="#ref-fndeapre">b</a>, <a href="#ref-cartilhamerenda">2014</a>)</span>.</p>
 <h3 id="desafios">Desafios</h3>
 <p>O provimento da merenda é uma questão complexa uma vez que envolve diversos atores, restrições e especificidades locais. Dessa forma, há possibilidade de falhas em várias etapas do processo. Muitas delas já são conhecidas pelos órgãos de controle e diversas foram ressaltadas ao longo das entrevistas com os participantes das campanhas de monitoramento.</p>
 <p>Na etapa de aquisição dos alimentos são encontrados problemas como: ausência de gêneros alimentícios oriundos da agricultura familiar, presença de alimentos proibidos pela legislação do PNAE (como refrigerantes, refrescos artificiais e enlatados), fraudes no processo licitatório, desacordo entre os produtos adquiridos e o cardápio elaborado por nutricionista.</p>
@@ -255,7 +257,7 @@
 <h3 id="contexto">Contexto</h3>
 <p>Com cerca de 300 mil habitantes e 23 mil km², Santarém é o terceiro município mais populoso do estado do Pará, sendo o principal centro urbano, financeiro, comercial e cultural do oeste do estado. Situa-se na confluência dos rios Tapajós e Amazonas e está localizado a cerca de 800 km das metrópoles brasileiras da Amazônia (Manaus e Belém) <span class="citation" data-cites="wikisant prefsant">(Wikipedia <a href="#ref-wikisant">2016</a><a href="#ref-wikisant">b</a>; Prefeitura Municipal de Santarém <a href="#ref-prefsant">2016</a>)</span>.</p>
 <figure>
-<img src="./media/image17.png" alt="Localização de Santarém no Brasil - Fonte: Wikipedia" width="321" height="319" /><figcaption><strong>Localização de Santarém no Brasil</strong> - <em>Fonte: <a href="https://pt.wikipedia.org/wiki/Santar%C3%A9m_(Par%C3%A1)">Wikipedia</a></em></figcaption>
+<img src="./media/image17.png" alt="Localização de Santarém no Brasil - Fonte: Wikipedia" style="width:3.34896in;height:3.33286in" /><figcaption><strong>Localização de Santarém no Brasil</strong> - <em>Fonte: <a href="https://pt.wikipedia.org/wiki/Santar%C3%A9m_(Par%C3%A1)">Wikipedia</a></em></figcaption>
 </figure>
 <p>A cidade possui cerca de 38 escolas estaduais, totalizando aproximadamente 44 mil alunos matriculados (incluindo jovens e adultos) <span class="citation" data-cites="seducsant">(Secretaria de Educação do Estado do Pará <a href="#ref-seducsant">2016</a><a href="#ref-seducsant">b</a>)</span>. Na cidade, a merenda das escolas estaduais e municipais é municipalizada. Logo, o estado repassa para a prefeitura a verba que recebeu do governo federal para o suprimento da merenda, e a Secretaria Municipal de Educação (SEMED) se torna responsável pela aquisição dos alimentos.</p>
 <h3 id="atores-principais">Atores Principais</h3>
@@ -265,7 +267,7 @@
 <h3 id="campanha">Campanha</h3>
 <p>Iniciando um trabalho conjunto com o MP, a promotora pediu para que os estudantes priorizassem suas demandas para que juntos pudessem começar a buscar e encaminhar soluções. Nesse sentido, solicitou aos estudantes que montassem dossiês sobre os problemas enfrentados: reunissem documentos, tirassem fotos etc.</p>
 <p>Dessa forma, os estudantes de uma escola chegam a fazer e aplicar um questionário sobre o problema de segurança. Os dados foram tabulados, gráficos foram feitos e apresentados em reunião com a promotora, Polícia Militar, Polícia Civil, Conselho Tutelar e outros grupos. A promotora pediu então para que o questionário fosse aplicado nas demais escolas.</p>
-<p>Quando começaram a discutir a questão da merenda, em fevereiro, o MP percebeu que não havia dados suficientes para basear uma ação mais concreta. Quando o MP realizava visitas às escolas havia merenda, mas não havia condições de realizar visitas diárias. Nesse sentido o OSB e o MPEPEP decidiram usar o Monitorando para acompanhar a merenda das escolas. O OSB, utilizando-se da experiência adquirida na campanha piloto sobre a merenda em Belém, criou a campanha na plataforma. Para ela adotou-se o nome de &quot;Égua da Merenda, João&quot;, buscando ao mesmo tempo chamar a atenção das pessoas em um linguajar próprio da região, e homenagear um pesquisador membro do OSB, assassinado em fevereiro de 2016. O questionário da campanha foi montado a partir de um diálogo entre o OSB e o MPEPEP, procurando levantar as seguintes informações:</p>
+<p>Quando começaram a discutir a questão da merenda, em fevereiro, o MP percebeu que não havia dados suficientes para basear uma ação mais concreta. Quando o MP realizava visitas às escolas havia merenda, mas não havia condições de realizar visitas diárias. Nesse sentido o OSB e o MPEPEP decidiram usar o Monitorando para acompanhar a merenda das escolas. O OSB, utilizando-se da experiência adquirida na campanha piloto sobre a merenda em Belém, criou a campanha na plataforma. Para ela adotou-se o nome de “Égua da Merenda, João”, buscando ao mesmo tempo chamar a atenção das pessoas em um linguajar próprio da região, e homenagear um pesquisador membro do OSB, assassinado em fevereiro de 2016. O questionário da campanha foi montado a partir de um diálogo entre o OSB e o MPEPEP, procurando levantar as seguintes informações:</p>
 <ol type="1">
 <li>Dia da coleta dos dados</li>
 <li>Local da coleta (obtida automaticamente via GPS do aparelho)</li>
@@ -300,18 +302,18 @@
 <p>Até o momento da sistematização dos resultados da coleta (19/12/2016), a campanha no Monitorando contabilizava 81 registros, coletados ao longo de cerca de 7 meses. Esses foram provenientes de 8 escolas, sendo que 4 delas enviaram pelo menos 8 registros. A seguir estão alguns exemplos dos gráficos e fotos dessa campanha.</p>
 <p>Pode-se notar que o momento de maior atividade na coleta de dados foi no começo de junho, quando houve a semana de intensa mobilização.</p>
 <figure>
-<img src="./media/image4.png" alt="Número de registros coletados por dia. - Fonte: Campanha Égua da Merenda João" width="624" height="260" /><figcaption><strong>Número de registros coletados por dia.</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/pt-BR/campaigns/420/share">Campanha Égua da Merenda João</a></em></figcaption>
+<img src="./media/image4.png" alt="Número de registros coletados por dia. - Fonte: Campanha Égua da Merenda João" style="width:6.5in;height:2.70833in" /><figcaption><strong>Número de registros coletados por dia.</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/pt-BR/campaigns/420/share">Campanha Égua da Merenda João</a></em></figcaption>
 </figure>
 <figure>
-<img src="./media/image14.png" alt="Porcentagem de respostas para a pergunta do questionário “Hoje teve merenda?” - Fonte: Campanha Égua da Merenda João" width="504" height="338" /><figcaption><strong>Porcentagem de respostas para a pergunta do questionário “Hoje teve merenda?”</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/pt-BR/campaigns/420/share">Campanha Égua da Merenda João</a></em></figcaption>
+<img src="./media/image14.png" alt="Porcentagem de respostas para a pergunta do questionário “Hoje teve merenda?” - Fonte: Campanha Égua da Merenda João" style="width:5.25521in;height:3.52553in" /><figcaption><strong>Porcentagem de respostas para a pergunta do questionário “Hoje teve merenda?”</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/pt-BR/campaigns/420/share">Campanha Égua da Merenda João</a></em></figcaption>
 </figure>
 <figure>
-<img src="./media/image11.png" alt="Fotos coletadas na campanha - Fonte: Campanha Égua da Merenda João" width="624" height="258" /><figcaption><strong>Fotos coletadas na campanha</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/pt-BR/campaigns/420/share">Campanha Égua da Merenda João</a></em></figcaption>
+<img src="./media/image11.png" alt="Fotos coletadas na campanha - Fonte: Campanha Égua da Merenda João" style="width:6.5in;height:2.69444in" /><figcaption><strong>Fotos coletadas na campanha</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/pt-BR/campaigns/420/share">Campanha Égua da Merenda João</a></em></figcaption>
 </figure>
 <h2 id="estudo-de-caso-ii-ponta-de-pedras">Estudo de Caso II: Ponta de Pedras</h2>
 <p>Com cerca de 28 mil habitantes e 3,3 mil km², Ponta de Pedras é um município localizado na Ilha de Marajó, foz do rio Amazonas, há 44 km da capital do estado, Belém <span class="citation" data-cites="wikipp prefpp">(Wikipedia <a href="#ref-wikipp">2016</a><a href="#ref-wikipp">a</a>; Prefeitura Municipal de Ponta de Pedras <a href="#ref-prefpp">2016</a>)</span>. A cidade possui cerca de 5 escolas estaduais, totalizando aproximadamente 2400 alunos matriculados (incluindo jovens e adultos) <span class="citation" data-cites="seducpp">(Secretaria de Educação do Estado do Pará <a href="#ref-seducpp">2016</a><a href="#ref-seducpp">a</a>)</span>. A merenda tanto das escolas estaduais como municipais é municipalizada.</p>
 <figure>
-<img src="./media/image13.png" alt="Localização Ponta de Pedras no Brasil - Fonte: Wikipedia" width="333" height="329" /><figcaption><strong>Localização Ponta de Pedras no Brasil</strong> - <em>Fonte: <a href="https://pt.wikipedia.org/wiki/Ponta_de_Pedras">Wikipedia</a></em></figcaption>
+<img src="./media/image13.png" alt="Localização Ponta de Pedras no Brasil - Fonte: Wikipedia" style="width:3.47687in;height:3.43229in" /><figcaption><strong>Localização Ponta de Pedras no Brasil</strong> - <em>Fonte: <a href="https://pt.wikipedia.org/wiki/Ponta_de_Pedras">Wikipedia</a></em></figcaption>
 </figure>
 <p>Segundo o MP, desde 2015 vem sendo negociadas com a prefeitura melhorias para as merendas das escolas estaduais e municipais na cidade. Nesse sentido foram feitas recomendações à prefeitura, mas o resultado, avaliado por técnicos do MP, não foi satisfatório.</p>
 <p>Como forma de auxiliar nesse controle, um dos técnicos do MP, membro do Observatório Social de Belém e que havia participado de oficina usando o Monitorando, sugeriu o uso da ferramenta. O promotor de justiça responsável pela cidade, vendo que a ferramenta permitiria fotos diárias da merenda por alunos, apoiou sua adoção. Com a participação dos próprios alunos no monitoramento da merenda, reduziria a necessidade do próprio promotor ir presencialmente às escolas, o que em um município de grande extensão como Ponta de Pedras é bastante significativo. Além disso, reduziria a chance de que a merenda fosse provida apenas nos dias em que o promotor fosse até uma escola fiscalizá-la.</p>
@@ -322,14 +324,14 @@
 <h3 id="dados-coletados-1">Dados Coletados</h3>
 <p>Já sobre os dados coletados através do Monitorando em Ponta de Pedras, até o momento da sistematização para este documento (19/12/2016), a campanha contabilizava 14 registros, coletados ao longo de cerca de 1 mês. Esses foram provenientes de 2 escolas. A seguir estão alguns exemplos dos gráficos e fotos da campanha.</p>
 <figure>
-<img src="./media/image15.png" alt="Número de registros coletados por dia - Fonte: Campanha Égua da Merenda João" width="576" /><figcaption><strong>Número de registros coletados por dia</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/data/534609">Campanha Égua da Merenda João</a></em></figcaption>
+<img src="./media/image15.png" alt="Número de registros coletados por dia - Fonte: Campanha Égua da Merenda João" style="width:6in" /><figcaption><strong>Número de registros coletados por dia</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/data/534609">Campanha Égua da Merenda João</a></em></figcaption>
 </figure>
 
 <figure>
-<img src="./media/image18.png" alt="Porcentagem de respostas para a pergunta do questionário “Hoje teve merenda?” - Fonte: Campanha Égua da Merenda João" width="393" /><figcaption><strong>Porcentagem de respostas para a pergunta do questionário “Hoje teve merenda?”</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/data/534609">Campanha Égua da Merenda João</a></em></figcaption>
+<img src="./media/image18.png" alt="Porcentagem de respostas para a pergunta do questionário “Hoje teve merenda?” - Fonte: Campanha Égua da Merenda João" style="width:4.1in" /><figcaption><strong>Porcentagem de respostas para a pergunta do questionário “Hoje teve merenda?”</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/data/534609">Campanha Égua da Merenda João</a></em></figcaption>
 </figure>
 <figure>
-<img src="./media/image12.png" alt="Fotos coletadas na campanha - Fonte: Campanha Égua da Merenda João" width="576" /><figcaption><strong>Fotos coletadas na campanha</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/data/534609">Campanha Égua da Merenda João</a></em></figcaption>
+<img src="./media/image12.png" alt="Fotos coletadas na campanha - Fonte: Campanha Égua da Merenda João" style="width:6in" /><figcaption><strong>Fotos coletadas na campanha</strong> - <em>Fonte: <a href="http://monitor.promisetracker.org/data/534609">Campanha Égua da Merenda João</a></em></figcaption>
 </figure>
 <h1 id="discussão">Discussão</h1>
 <p>Como descrito na seção Metodologia deste documento, ao longo do acompanhamento foram ouvidas pessoas que planejaram as campanhas, que as implantaram, que viram o produto das campanhas, além daquelas que se envolveram em mais de uma dessas etapas e tiveram uma visão mais completa do conjunto. Esta riqueza de olhares está sintetizada a seguir, em pontos principais de análise.</p>
@@ -481,10 +483,10 @@
 <h1 id="referências" class="unnumbered">Referências</h1>
 <div id="refs" class="references">
 <div id="ref-plancrowd">
-<p>Bickerstaff, Karen, Rodney Tolley, e Gordon Walker. 2002. “Transport planning and participation: the rhetoric and realities of public involvement”. <em>Journal of Transport Geography</em> 10 (1). Elsevier: 61–73.</p>
+<p>Bickerstaff, Karen, Rodney Tolley, e Gordon Walker. 2002. “Transport planning and participation: the rhetoric and realities of public involvement”. <em>Journal of Transport Geography</em> 10 (1). Elsevier:61–73.</p>
 </div>
 <div id="ref-mobility2016">
-<p>Birenboim, Amit, e Noam Shoval. 2016. “Mobility Research in the Age of the Smartphone”. <em>Annals of the American Association of Geographers</em> 106 (2). Taylor &amp; Francis: 283–91.</p>
+<p>Birenboim, Amit, e Noam Shoval. 2016. “Mobility Research in the Age of the Smartphone”. <em>Annals of the American Association of Geographers</em> 106 (2). Taylor &amp; Francis:283–91.</p>
 </div>
 <div id="ref-partsens2006">
 <p>Burke, Jeffrey A, Deborah Estrin, Mark Hansen, Andrew Parker, Nithya Ramanathan, Sasank Reddy, e Mani B Srivastava. 2006. “Participatory sensing”. <em>Center for Embedded Network Sensing</em>.</p>
@@ -501,17 +503,17 @@
 <div id="ref-food18">
 <p>Harper, Clare, Lesley Wood, e Claire Mitchell. 2008. “The provision of school food in 18 countries”. <em>School Food Trust</em>. Citeseer.</p>
 </div>
+<div id="ref-sensr1">
+<p>Kim, Sunyoung, Jennifer Mankoff, e Eric Paulos. 2013. “Sensr: Evaluating a Flexible Framework for Authoring Mobile Data-collection Tools for Citizen Science”. In <em>Proceedings of the 2013 Conference on Computer Supported Cooperative Work</em>, 1453–62. CSCW ’13. New York, NY, USA: ACM. <a href="https://doi.org/10.1145/2441776.2441940" class="uri">https://doi.org/10.1145/2441776.2441940</a>.</p>
+</div>
 <div id="ref-sensr0">
 <p>Kim, Sunyoung, e Eric Paulos. 2012. “A subscription-based authoring tool for mobile citizen science campaigns”. In <em>CHI’12 Extended Abstracts on Human Factors in Computing Systems</em>, 2135–40. ACM.</p>
-</div>
-<div id="ref-sensr1">
-<p>Kim, Sunyoung, Jennifer Mankoff, e Eric Paulos. 2013. “Sensr: Evaluating a Flexible Framework for Authoring Mobile Data-collection Tools for Citizen Science”. In <em>Proceedings of the 2013 Conference on Computer Supported Cooperative Work</em>, 1453–62. CSCW ’13. New York, NY, USA: ACM. doi:<a href="https://doi.org/10.1145/2441776.2441940">10.1145/2441776.2441940</a>.</p>
 </div>
 <div id="ref-fix">
 <p>King, Stephen F, e Paul Brown. 2007. “Fix my street or else: using the internet to voice local public service concerns”. In <em>Proceedings of the 1st international conference on Theory and practice of electronic governance</em>, 72–80. ACM.</p>
 </div>
 <div id="ref-techenga">
-<p>Kleinhans, Reinout, Maarten van Ham, e Jennifer Evans-Cowley. 2015. “Using Social Media and Mobile Technologies to Foster Engagement and Self-Organization in Participatory Urban Planning and Neighbourhood Governance”. <em>Planning Practice &amp; Research</em> 30 (3): 237–47. <a href="http://EconPapers.repec.org/RePEc:taf:cpprxx:v:30:y:2015:i:3:p:237-247" class="uri">http://EconPapers.repec.org/RePEc:taf:cpprxx:v:30:y:2015:i:3:p:237-247</a>.</p>
+<p>Kleinhans, Reinout, Maarten van Ham, e Jennifer Evans-Cowley. 2015. “Using Social Media and Mobile Technologies to Foster Engagement and Self-Organization in Participatory Urban Planning and Neighbourhood Governance”. <em>Planning Practice &amp; Research</em> 30 (3):237–47. <a href="http://EconPapers.repec.org/RePEc:taf:cpprxx:v:30:y:2015:i:3:p:237-247" class="uri">http://EconPapers.repec.org/RePEc:taf:cpprxx:v:30:y:2015:i:3:p:237-247</a>.</p>
 </div>
 <div id="ref-databasedpart">
 <p>Le Dantec, Christopher A. 2014. “Data-Based Civic Participation”. In <em>Second AAAI Conference on Human Computation and Crowdsourcing</em>.</p>
@@ -550,13 +552,13 @@
 <p>———. 2016b. “Santarém”. <a href="http://www.seduc.pa.gov.br/portal/escola/consulta_matricula/RelatorioMatriculas.php?codigo_ure=5&amp;codigo_municipio=44997" class="uri">http://www.seduc.pa.gov.br/portal/escola/consulta_matricula/RelatorioMatriculas.php?codigo_ure=5&amp;codigo_municipio=44997</a>.</p>
 </div>
 <div id="ref-citisci2009">
-<p>Silvertown, Jonathan. 2009. “A new dawn for citizen science”. <em>Trends in ecology &amp; evolution</em> 24 (9). Elsevier: 467–71.</p>
+<p>Silvertown, Jonathan. 2009. “A new dawn for citizen science”. <em>Trends in ecology &amp; evolution</em> 24 (9). Elsevier:467–71.</p>
 </div>
 <div id="ref-pesqacao">
 <p>Thiollent, Michel. 2011. “Metodologia da pesquisa-ação”. In. Cortez.</p>
 </div>
 <div id="ref-ushahidi2012">
-<p>Wachanga, D Ndirangu. 2012. “Participatory culture in an emerging information ecosystem: Lessons from Ushahidi”. <em>Communicatio</em> 38 (2). Taylor &amp; Francis: 195–212.</p>
+<p>Wachanga, D Ndirangu. 2012. “Participatory culture in an emerging information ecosystem: Lessons from Ushahidi”. <em>Communicatio</em> 38 (2). Taylor &amp; Francis:195–212.</p>
 </div>
 <div id="ref-wikipp">
 <p>Wikipedia. 2016a. “Ponta de Pedras”. <a href="https://pt.wikipedia.org/wiki/Ponta_de_Pedras" class="uri">https://pt.wikipedia.org/wiki/Ponta_de_Pedras</a>.</p>

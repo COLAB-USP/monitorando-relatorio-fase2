@@ -1,6 +1,7 @@
 ---
 title: Monitorando a merenda no Pará
 subtitle: Uma experiência de coleta de dados para ação cidadã
+author: Andrés M. R. Martano¹, Gisele S. Craveiro¹, Emilie Reiser², Marisa Villi¹
 date: Maio de 2017
 lang: pt-BR
 classoption:
@@ -24,13 +25,18 @@ include-after:
 \newpage
 <hr>
 
-**Sobre os autores**
+
+**Autoria**
 
 \vspace{0.5cm}
 
-**[Colaboratório de Desenvolvimento e Participação da USP](http://colab.each.usp.br) (Colab-USP):** Grupo de pesquisa da Universidade de São Paulo (USP) que atua também com desenvolvimento de software e na formação de pessoa. Trabalha em parceria com governos e organizações da sociedade civil. Entre seus objetivos principais estão: democratização do acesso a bens culturais, diagnóstico do acesso a dados, promoção do acesso à informação pública, transparência, controle e participação social.
+*Andrés M. R. Martano¹, Gisele S. Craveiro¹, Emilie Reiser², Marisa Villi¹*
 
-**[MIT Media Lab’s Center for Civic Media](https://civic.mit.edu) (Civic Media):** Grupo de pesquisa que estuda e desenvolve novas tecnologias para facilitar a participação e engajamento cidadão. O grupo trabalha colaborativamente com diversas comunidades pelo mundo para criar e avaliar ferramentas que estimulam a coleta e divulgação de informação para a ação cidadã. Explora sistemas para analisar o ecossistema de mídia e amplificar as vozes de grupos marginalizados.
+\vspace{0.5cm}
+
+¹**[Colaboratório de Desenvolvimento e Participação da USP](http://colab.each.usp.br) (Colab-USP):** Grupo de pesquisa da Universidade de São Paulo (USP) que atua também com desenvolvimento de software e na formação de pessoa. Trabalha em parceria com governos e organizações da sociedade civil. Entre seus objetivos principais estão: democratização do acesso a bens culturais, diagnóstico do acesso a dados, promoção do acesso à informação pública, transparência, controle e participação social.
+
+²**[MIT Media Lab’s Center for Civic Media](https://civic.mit.edu) (Civic Media):** Grupo de pesquisa que estuda e desenvolve novas tecnologias para facilitar a participação e engajamento cidadão. O grupo trabalha colaborativamente com diversas comunidades pelo mundo para criar e avaliar ferramentas que estimulam a coleta e divulgação de informação para a ação cidadã. Explora sistemas para analisar o ecossistema de mídia e amplificar as vozes de grupos marginalizados.
 
 \vspace{1cm}
 

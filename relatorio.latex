@@ -26,6 +26,7 @@
 \PassOptionsToPackage{usenames,dvipsnames}{xcolor} % color is loaded by hyperref
 \hypersetup{
             pdftitle={Monitorando a merenda no Pará},
+            pdfauthor={Andrés M. R. Martano, Gisele S. Craveiro, Emilie Reiser, Marisa Villi},
             colorlinks=true,
             linkcolor=Maroon,
             citecolor=Blue,
@@ -78,6 +79,7 @@
 \title{Monitorando a merenda no Pará}
 \providecommand{\subtitle}[1]{}
 \subtitle{Uma experiência de coleta de dados para ação cidadã}
+\author{Andrés M. R. Martano, Gisele S. Craveiro, Emilie Reiser, Marisa Villi}
 \date{Maio de 2017}
 
 \begin{document}
@@ -139,10 +141,10 @@ O financiamento desta pesquisa foi provido pelo
 \vspace{2cm}
 
 \newpage
-
 \tableofcontents
 
-\chapter{Introdução}\label{introduuxe7uxe3o}
+\hypertarget{introduuxe7uxe3o}{%
+\chapter{Introdução}\label{introduuxe7uxe3o}}
 
 Durante as últimas décadas, a popularização de tecnologias como a
 internet e os aparelhos celulares têm despertado grandes expectativas
@@ -195,7 +197,8 @@ política dessas pessoas, a relação com outras instituições e grupos, e a
 própria forma como enxergam a sua responsabilidade para com a
 comunidade.
 
-\section{Perguntas de Pesquisa}\label{perguntas-de-pesquisa}
+\hypertarget{perguntas-de-pesquisa}{%
+\section{Perguntas de Pesquisa}\label{perguntas-de-pesquisa}}
 
 Para ajudar a guiar este trabalho foram enunciadas as seguintes
 perguntas de pesquisa, agrupadas em 3 conjuntos:
@@ -251,7 +254,8 @@ perguntas de pesquisa, agrupadas em 3 conjuntos:
   \end{enumerate}
 \end{enumerate}
 
-\chapter{Revisão Bibliográfica}\label{revisuxe3o-bibliogruxe1fica}
+\hypertarget{revisuxe3o-bibliogruxe1fica}{%
+\chapter{Revisão Bibliográfica}\label{revisuxe3o-bibliogruxe1fica}}
 
 Assim como os valores de uma sociedade podem mudar ao longo do tempo,
 sua visão sobre o que seria um ``bom cidadão'' também pode ser
@@ -370,7 +374,8 @@ processo de criação da campanha, coleta, análise e uso dos dados; e,
 principalmente a consolidação de todos esses passos do processo em uma
 única plataforma.
 
-\chapter{Metodologia}\label{metodologia}
+\hypertarget{metodologia}{%
+\chapter{Metodologia}\label{metodologia}}
 
 A metodologia adotada por esse trabalho segue a linha da Pesquisa Ação
 (PA). Esta, segundo Thiollent (\protect\hyperlink{ref-pesqacao}{2011}),
@@ -402,8 +407,9 @@ do fato de que a própria metodologia estudada se aproxima dos princípios
 e práticas da pesquisa-ação, ao propor que os próprios envolvidos no
 contexto sejam pesquisadores de suas realidades.
 
+\hypertarget{acompanhamento-e-atividades-desenvolvidas}{%
 \section{Acompanhamento e Atividades
-Desenvolvidas}\label{acompanhamento-e-atividades-desenvolvidas}
+Desenvolvidas}\label{acompanhamento-e-atividades-desenvolvidas}}
 
 A participação dos pesquisadores nas atividades dos grupos parceiros se
 deu através de acompanhamento remoto (através de conversas pela
@@ -485,8 +491,9 @@ quais seriam os envolvidos.
 Ao todo o acompanhamento de Santarém durou cerca de 5 meses, enquanto o
 de Ponta de Pedras 3 meses.
 
+\hypertarget{projeto-monitorando-a-cidade}{%
 \chapter{Projeto Monitorando a
-Cidade}\label{projeto-monitorando-a-cidade}
+Cidade}\label{projeto-monitorando-a-cidade}}
 
 O Monitorando a Cidade é uma plataforma e metodologia que possibilita a
 comunidades coletarem dados de maneira colaborativa para monitorar
@@ -505,7 +512,8 @@ visualizações simples que podem ser analisadas pelos colaboradores e
 compartilhadas com as organizações locais, oficiais públicos ou outros
 atores buscando assim discutir a questão abordada.
 
-\section{Desenvolvimento}\label{desenvolvimento}
+\hypertarget{desenvolvimento}{%
+\section{Desenvolvimento}\label{desenvolvimento}}
 
 Desde o fim de 2013, o Monitorando tem sido desenvolvido pelo Center for
 Civic Media (CCM) em colaboração com parceiros brasileiros. O projeto
@@ -529,7 +537,8 @@ mesmas. O time do MIT notou, principalmente, a ausência de uma
 estruturação nas ferramentas que ajudasse a guiar a construção do
 processo de coleta dos dados.
 
-\section{Metodologia das Oficinas}\label{metodologia-das-oficinas}
+\hypertarget{metodologia-das-oficinas}{%
+\section{Metodologia das Oficinas}\label{metodologia-das-oficinas}}
 
 Paralelamente ao desenvolvimento da plataforma, uma metodologia foi
 desenvolvida para auxiliar no uso da mesma. A própria plataforma,
@@ -581,11 +590,12 @@ que é uma ferramenta livre.
 
 \begin{figure}
 \centering
-\includegraphics[width=6.50000in,height=3.65278in]{./media/image16.jpg}
+\includegraphics[width=6.5in,height=3.65278in]{./media/image16.jpg}
 \caption{\textbf{Fases da Metodologia} - \emph{Fonte: autoria própria}}
 \end{figure}
 
-\subsection{Identificando prioridades}\label{identificando-prioridades}
+\hypertarget{identificando-prioridades}{%
+\subsection{Identificando prioridades}\label{identificando-prioridades}}
 
 O primeiro passo é a discussão sobre os principais desafios enfrentados
 pelos participantes em suas comunidades. Recomenda-se que os desafios
@@ -601,7 +611,8 @@ coletar dados e usá-los para buscar soluções aos problemas, é
 fundamental que os participantes abordem temas importantes para eles, e
 que os afetam no dia a dia.
 
-\subsection{Criando indicadores}\label{criando-indicadores}
+\hypertarget{criando-indicadores}{%
+\subsection{Criando indicadores}\label{criando-indicadores}}
 
 O segundo passo do processo orienta os participantes a definirem
 indicadores, ou tipos de dados que possam ser coletados, para auxiliar a
@@ -636,7 +647,8 @@ informações levantadas nesses passos iniciais, como o assunto abordado,
 o público alvo dos dados a serem coletados e o questionário que guiará a
 coleta dos dados.
 
-\subsection{Coleta dos dados}\label{coleta-dos-dados}
+\hypertarget{coleta-dos-dados}{%
+\subsection{Coleta dos dados}\label{coleta-dos-dados}}
 
 Uma vez com a campanha estruturada, os participantes iniciam a coleta
 dos dados. Inicialmente a campanha é lançada em modo ``teste'',
@@ -663,8 +675,9 @@ campanha. Uma vez definida, os dados de teste são apagados e começa a
 coleta real: os participantes, individualmente ou em pares, percorrem a
 comunidade coletando os dados.
 
+\hypertarget{analisando-os-resultados-e-discutindo-a-estratuxe9gia}{%
 \subsection{Analisando os resultados e discutindo a
-estratégia}\label{analisando-os-resultados-e-discutindo-a-estratuxe9gia}
+estratégia}\label{analisando-os-resultados-e-discutindo-a-estratuxe9gia}}
 
 Retornando da coleta em campo, os participantes se reúnem para revisar e
 discutir o que foi coletado até então. A conversa inicia comentando
@@ -694,7 +707,8 @@ feitas perguntas como:
   Quando o grupo se reunirá novamente para planejar os próximos passos?
 \end{itemize}
 
-\section{Fase I}\label{fase-i}
+\hypertarget{fase-i}{%
+\section{Fase I}\label{fase-i}}
 
 Após um ano de desenvolvimento colaborativo com membros da Rede Nossa
 São Paulo e outros parceiros no Brasil, o CCM lançou a primeira versão
@@ -714,7 +728,8 @@ participantes experimentaram a ferramenta para monitorar vários temas,
 entre eles: acessibilidade do transporte público, manutenção de praças e
 coleta de lixo.
 
-\section{Fase II}\label{fase-ii}
+\hypertarget{fase-ii}{%
+\section{Fase II}\label{fase-ii}}
 
 Em maio de 2016 é iniciada a segunda fase piloto, buscando observar
 processos e resultados do uso do Monitorando a Cidade através de uma
@@ -741,7 +756,8 @@ temáticas, para a segunda fase optou-se por acompanhar grupos que já
 estavam fazendo uso da ferramenta. Esses dois grupos acompanhados
 utilizaram a plataforma para o monitoramento da merenda escolar.
 
-\chapter{Estudos de Caso}\label{estudos-de-caso}
+\hypertarget{estudos-de-caso}{%
+\chapter{Estudos de Caso}\label{estudos-de-caso}}
 
 Nas seções a seguir são contextualizados e descritos os estudos de caso
 acompanhados neste trabalho, ocorridos nas cidades de Santarém e Ponta
@@ -787,7 +803,8 @@ em conjunto com os estudantes das escolas locais. Já em Ponta de Pedras,
 houve participação dos estudantes de escolas públicas no processo de
 coleta de dados, acompanhados pelos gestores escolares.
 
-\section{A Merenda Escolar}\label{a-merenda-escolar}
+\hypertarget{a-merenda-escolar}{%
+\section{A Merenda Escolar}\label{a-merenda-escolar}}
 
 Uma vez que ambos os estudos de caso abordaram o tema da merenda
 escolar, julga-se importante contextualizá-lo, buscando contribuir para
@@ -814,7 +831,8 @@ Em alguns casos há políticas de valorização dos produtores locais e da
 cultura alimentar da região, em outros, esse tipo de distinção chega a
 ser proibida.
 
-\subsection{Brasil}\label{brasil}
+\hypertarget{brasil}{%
+\subsection{Brasil}\label{brasil}}
 
 No Brasil, o principal programa referente à merenda é o Programa
 Nacional de Alimentação Escolar (PNEA), que atende a todos os alunos
@@ -856,11 +874,11 @@ necessário, é esperado que o estado complemente o valor com recurso
 próprio. Segundo estimativas do governo, o programa atendeu em 2014
 cerca de 42 milhões de alunos, com um investimento de R\$3,6 bilhões
 (Fundo Nacional de Desenvolvimento da Educação
-\protect\hyperlink{ref-fndeapre}{2015}\protect\hyperlink{ref-fndeapre}{b};
-Fundo Nacional de Desenvolvimento da Educação
+\protect\hyperlink{ref-fndeapre}{2015}\protect\hyperlink{ref-fndeapre}{b},
 \protect\hyperlink{ref-cartilhamerenda}{2014}).
 
-\subsection{Desafios}\label{desafios}
+\hypertarget{desafios}{%
+\subsection{Desafios}\label{desafios}}
 
 O provimento da merenda é uma questão complexa uma vez que envolve
 diversos atores, restrições e especificidades locais. Dessa forma, há
@@ -903,9 +921,12 @@ composição do mesmo em desacordo com a legislação, não cumprimento do
 planejamento proposto ou, como colocado por vários entrevistados, a
 atuação insatisfatória (quase inexistente) do CAE.
 
-\section{Estudo de Caso I: Santarém}\label{estudo-de-caso-i-santaruxe9m}
+\hypertarget{estudo-de-caso-i-santaruxe9m}{%
+\section{Estudo de Caso I:
+Santarém}\label{estudo-de-caso-i-santaruxe9m}}
 
-\subsection{Contexto}\label{contexto}
+\hypertarget{contexto}{%
+\subsection{Contexto}\label{contexto}}
 
 Com cerca de 300 mil habitantes e 23 mil km², Santarém é o terceiro
 município mais populoso do estado do Pará, sendo o principal centro
@@ -933,7 +954,8 @@ recebeu do governo federal para o suprimento da merenda, e a Secretaria
 Municipal de Educação (SEMED) se torna responsável pela aquisição dos
 alimentos.
 
-\subsection{Atores Principais}\label{atores-principais}
+\hypertarget{atores-principais}{%
+\subsection{Atores Principais}\label{atores-principais}}
 
 Fundado em 2001, o \textbf{Projeto SOL} começou organizando trabalhos
 voluntários junto às famílias produtoras de carvão da cidade. Com o
@@ -965,7 +987,8 @@ falta de segurança e o não funcionamento de espaços pedagógicos
 (Movimento Pacto Estudantil Pela Educação no Pará
 \protect\hyperlink{ref-mpepep}{2016}).
 
-\subsection{Campanha}\label{campanha}
+\hypertarget{campanha}{%
+\subsection{Campanha}\label{campanha}}
 
 Iniciando um trabalho conjunto com o MP, a promotora pediu para que os
 estudantes priorizassem suas demandas para que juntos pudessem começar a
@@ -1111,7 +1134,8 @@ vinculada à Secretaria Estadual de Educação), uma capacitação com as
 merendeiras, um dos frutos da campanha, trazendo maior sensibilização
 sobre o tema.
 
-\subsection{Dados coletados}\label{dados-coletados}
+\hypertarget{dados-coletados}{%
+\subsection{Dados coletados}\label{dados-coletados}}
 
 Até o momento da sistematização dos resultados da coleta (19/12/2016), a
 campanha no Monitorando contabilizava 81 registros, coletados ao longo
@@ -1124,7 +1148,7 @@ começo de junho, quando houve a semana de intensa mobilização.
 
 \begin{figure}
 \centering
-\includegraphics[width=6.50000in,height=2.70833in]{./media/image4.png}
+\includegraphics[width=6.5in,height=2.70833in]{./media/image4.png}
 \caption{\textbf{Número de registros coletados por dia.} - \emph{Fonte:
 \href{http://monitor.promisetracker.org/pt-BR/campaigns/420/share}{Campanha
 Égua da Merenda João}}}
@@ -1141,14 +1165,15 @@ questionário ``Hoje teve merenda?''} - \emph{Fonte:
 
 \begin{figure}
 \centering
-\includegraphics[width=6.50000in,height=2.69444in]{./media/image11.png}
+\includegraphics[width=6.5in,height=2.69444in]{./media/image11.png}
 \caption{\textbf{Fotos coletadas na campanha} - \emph{Fonte:
 \href{http://monitor.promisetracker.org/pt-BR/campaigns/420/share}{Campanha
 Égua da Merenda João}}}
 \end{figure}
 
+\hypertarget{estudo-de-caso-ii-ponta-de-pedras}{%
 \section{Estudo de Caso II: Ponta de
-Pedras}\label{estudo-de-caso-ii-ponta-de-pedras}
+Pedras}\label{estudo-de-caso-ii-ponta-de-pedras}}
 
 Com cerca de 28 mil habitantes e 3,3 mil km², Ponta de Pedras é um
 município localizado na Ilha de Marajó, foz do rio Amazonas, há 44 km da
@@ -1211,7 +1236,8 @@ aprender com eles sobre a experiência de uso do Monitorando. Essa visita
 foi um dos momentos chave para a coleta de boa parte das informações
 analisadas neste documento.
 
-\subsection{Dados Coletados}\label{dados-coletados-1}
+\hypertarget{dados-coletados-1}{%
+\subsection{Dados Coletados}\label{dados-coletados-1}}
 
 Já sobre os dados coletados através do Monitorando em Ponta de Pedras,
 até o momento da sistematização para este documento (19/12/2016), a
@@ -1221,7 +1247,7 @@ exemplos dos gráficos e fotos da campanha.
 
 \begin{figure}
 \centering
-\includegraphics[width=6.00000in]{./media/image15.png}
+\includegraphics[width=6in,height=\textheight]{./media/image15.png}
 \caption{\textbf{Número de registros coletados por dia} - \emph{Fonte:
 \href{http://monitor.promisetracker.org/data/534609}{Campanha Égua da
 Merenda João}}}
@@ -1231,7 +1257,7 @@ Merenda João}}}
 
 \begin{figure}
 \centering
-\includegraphics[width=4.10000in]{./media/image18.png}
+\includegraphics[width=4.1in,height=\textheight]{./media/image18.png}
 \caption{\textbf{Porcentagem de respostas para a pergunta do
 questionário ``Hoje teve merenda?''} - \emph{Fonte:
 \href{http://monitor.promisetracker.org/data/534609}{Campanha Égua da
@@ -1240,13 +1266,14 @@ Merenda João}}}
 
 \begin{figure}
 \centering
-\includegraphics[width=6.00000in]{./media/image12.png}
+\includegraphics[width=6in,height=\textheight]{./media/image12.png}
 \caption{\textbf{Fotos coletadas na campanha} - \emph{Fonte:
 \href{http://monitor.promisetracker.org/data/534609}{Campanha Égua da
 Merenda João}}}
 \end{figure}
 
-\chapter{Discussão}\label{discussuxe3o}
+\hypertarget{discussuxe3o}{%
+\chapter{Discussão}\label{discussuxe3o}}
 
 Como descrito na seção Metodologia deste documento, ao longo do
 acompanhamento foram ouvidas pessoas que planejaram as campanhas, que as
@@ -1259,8 +1286,9 @@ em pontos principais de análise.
 ferramenta se deu no ambiente escolar, que possui uma hierarquia,
 temporalidade e dinâmica bastante própria.
 
+\hypertarget{indissociabilidade-entre-monitorando-e-mobilizauxe7uxf5es}{%
 \section{Indissociabilidade entre Monitorando e
-mobilizações}\label{indissociabilidade-entre-monitorando-e-mobilizauxe7uxf5es}
+mobilizações}\label{indissociabilidade-entre-monitorando-e-mobilizauxe7uxf5es}}
 
 Em nenhum dos casos a plataforma foi adotada de maneira isolada, mas sim
 inserida em um processo maior (a campanha para o monitoramento da
@@ -1279,7 +1307,8 @@ não se propõe a estudar a plataforma de maneira isolada, mas sim como
 uma ferramenta de auxílio às mobilizações desenvolvidas por um grupo de
 atores.
 
-\section{Geral}\label{geral}
+\hypertarget{geral}{%
+\section{Geral}\label{geral}}
 
 De forma geral os entrevistados se mostraram favoráveis às duas
 campanhas acompanhadas, mesmo que em alguns casos com algumas ressalvas
@@ -1372,7 +1401,8 @@ visita. Em Ponta de Pedras esse acompanhamento remoto só foi iniciado
 dois meses depois, com a primeira ida à cidade, e quando as entrevistas
 no local já haviam sido feitas.
 
-\section{Resultados para a Merenda}\label{resultados-para-a-merenda}
+\hypertarget{resultados-para-a-merenda}{%
+\section{Resultados para a Merenda}\label{resultados-para-a-merenda}}
 
 No mesmo sentido das diferenças descritas anteriormente, os dois casos
 também divergiram bastante quanto a melhorias diretas para a merenda
@@ -1423,8 +1453,9 @@ relacionada ao fato da campanha ainda ser recente. Porém, as
 expectativas ainda são muito positivas, uma vez que o material coletado
 já está auxiliando a atuação do próprio MP.
 
+\hypertarget{aprendizado-sobre-o-tema-monitorado}{%
 \section{Aprendizado sobre o Tema
-Monitorado}\label{aprendizado-sobre-o-tema-monitorado}
+Monitorado}\label{aprendizado-sobre-o-tema-monitorado}}
 
 Como descrito anteriormente, a dinâmica de desenvolvimento das campanhas
 foi significativamente diferente da metodologia inicialmente pensada
@@ -1489,7 +1520,8 @@ dos problemas estão na distribuição desses alimentos. Esse seria um
 indicativo de que, através da campanha, o grupo passou a compreender
 melhor as causas dos problemas com a merenda da cidade.
 
-\section{Uso dos Dados Coletados}\label{uso-dos-dados-coletados}
+\hypertarget{uso-dos-dados-coletados}{%
+\section{Uso dos Dados Coletados}\label{uso-dos-dados-coletados}}
 
 Os dados coletados através do Monitorando, aparentemente, foram vistos
 por poucas pessoas. Mesmo algumas pessoas da coordenação do movimento em
@@ -1610,7 +1642,8 @@ papel, é difícil para os próprios membros do MP o utilizarem depois.
 Ainda segundo entrevista, o Monitorando teria a vantagem de ser mais
 ágil e fornecer automaticamente os gráficos sobre os dados coletados.
 
-\section{Percepção sobre Dados}\label{percepuxe7uxe3o-sobre-dados}
+\hypertarget{percepuxe7uxe3o-sobre-dados}{%
+\section{Percepção sobre Dados}\label{percepuxe7uxe3o-sobre-dados}}
 
 Pelo fato de poucas pessoas terem visto e usado os dados coletados
 através do Monitorando, é difícil dizer que ele tenha contribuído para
@@ -1624,8 +1657,9 @@ Em Santarém, onde a coordenação da campanha já possuía alguma prática no
 uso de dados, é difícil atestar mudanças de percepção, uma vez que o uso
 de dados já ocorria antes do início do acompanhamento por este projeto.
 
+\hypertarget{desenvolvimento-e-consolidauxe7uxe3o-de-parcerias}{%
 \section{Desenvolvimento e Consolidação de
-Parcerias}\label{desenvolvimento-e-consolidauxe7uxe3o-de-parcerias}
+Parcerias}\label{desenvolvimento-e-consolidauxe7uxe3o-de-parcerias}}
 
 Em Santarém vários entrevistados afirmaram ter sentido uma aproximação
 entre os atores envolvidos na merenda: atraindo mais estudantes para o
@@ -1677,8 +1711,9 @@ protagonismo da mesma no controle social. Segundo eles, a atuação da
 sociedade é fundamental para potencializar o trabalho do MP, e a coleta
 de dados um caminho para isso.
 
+\hypertarget{senso-de-eficuxe1cia-e-responsabilidade-coletiva}{%
 \section{Senso de Eficácia e Responsabilidade
-Coletiva}\label{senso-de-eficuxe1cia-e-responsabilidade-coletiva}
+Coletiva}\label{senso-de-eficuxe1cia-e-responsabilidade-coletiva}}
 
 A maioria dos envolvidos nas campanhas acompanhadas já demonstravam
 algum tipo de engajamento antes de participarem nelas. Em Ponta de
@@ -1734,8 +1769,9 @@ escolas sobre como coletar os dados, com o uso do Monitorando isso fica
 mais fácil. Além disso, com o Monitorando não é necessário tabular os
 dados coletados e os gráficos são gerados automaticamente.
 
+\hypertarget{aplicativos-utilizados-pelas-campanhas}{%
 \section{Aplicativos Utilizados pelas
-Campanhas}\label{aplicativos-utilizados-pelas-campanhas}
+Campanhas}\label{aplicativos-utilizados-pelas-campanhas}}
 
 Além do Monitorando, os aplicativos do Facebook e Whatsapp tiveram
 papéis importantes nas duas campanhas acompanhadas. Em Santarém o
@@ -1778,12 +1814,14 @@ coletados sem ele, entrevistados em Santarém afirmaram que ele
 proporciona maior exatidão às informações, simplifica a participação de
 mais pessoas, e agiliza tanto a coleta como análise das informações.
 
-\section{Desafios}\label{desafios-1}
+\hypertarget{desafios-1}{%
+\section{Desafios}\label{desafios-1}}
 
 A seguir discutiremos os principais desafios encontrados ao longo das
 duas campanhas de monitoramento acompanhadas.
 
-\subsection{Organizacionais}\label{organizacionais}
+\hypertarget{organizacionais}{%
+\subsection{Organizacionais}\label{organizacionais}}
 
 Um dos principais desafios relatados foi a dificuldade em manter as
 pessoas motivadas a continuarem a coleta dos dados. Tanto em Santarém
@@ -1852,7 +1890,8 @@ Segundo entrevistas, em Santarém, alguns gestores de escolas também
 chegaram a reclamar sobre a campanha, alegando que ela poderia
 prejudicar a imagem das escolas.
 
-\subsection{Infraestrutura}\label{infraestrutura}
+\hypertarget{infraestrutura}{%
+\subsection{Infraestrutura}\label{infraestrutura}}
 
 Um problema que chegou a afetar o monitoramento foi a quebra ou perda de
 celulares. Quando isso acontecia com o estudante responsável pelo
@@ -1887,7 +1926,8 @@ acompanhados, segundo entrevistas, ela seria importante em algumas
 escolas mais afastadas, onde não há acesso à internet. Os dados nesses
 casos poderiam ser enviados depois quando os estudantes fossem à cidade.
 
-\subsection{Plataforma}\label{plataforma}
+\hypertarget{plataforma}{%
+\subsection{Plataforma}\label{plataforma}}
 
 Como dito anteriormente, o Monitorando é uma plataforma protótipo, ainda
 em experimentação e sem uma equipe de desenvolvimento dedicada em tempo
@@ -1987,7 +2027,8 @@ um tema bastante relevante para múltiplos atores, levantando assim o
 questionamento sobre se caberia ou não o desenvolvimento de uma nova
 ferramenta específica para o monitoramento da merenda.
 
-\chapter{Recomendações}\label{recomendauxe7uxf5es}
+\hypertarget{recomendauxe7uxf5es}{%
+\chapter{Recomendações}\label{recomendauxe7uxf5es}}
 
 A partir do que foi observado e aprendido ao longo deste breve período
 de acompanhamento, tentaremos aqui explicitar alguns indícios iniciais
@@ -2040,7 +2081,8 @@ evidência desta ideia. Sendo assim, talvez possa ser dito que a
 ferramenta serviu principalmente como uma justificativa para reunir
 pessoas e uma guia para orientar a ação conjunta entre elas.
 
-\chapter{Considerações Finais}\label{considerauxe7uxf5es-finais}
+\hypertarget{considerauxe7uxf5es-finais}{%
+\chapter{Considerações Finais}\label{considerauxe7uxf5es-finais}}
 
 Este trabalho acompanhou apenas dois estudos de caso e por um período
 relativamente curto (menor que um semestre). A temática em ambos foi a
@@ -2144,142 +2186,142 @@ levantadas, bem como verificar se as descobertas apontadas neste
 relatório são aplicáveis a outros contextos de uso do Monitorando, com
 temas, públicos e espaços diversos.
 
-\chapter*{Referências}\label{referuxeancias}
+\hypertarget{referuxeancias}{%
+\chapter*{Referências}\label{referuxeancias}}
 \addcontentsline{toc}{chapter}{Referências}
 
 \hypertarget{refs}{}
-\hypertarget{ref-plancrowd}{}
+\leavevmode\hypertarget{ref-plancrowd}{}%
 Bickerstaff, Karen, Rodney Tolley, e Gordon Walker. 2002. ``Transport
 planning and participation: the rhetoric and realities of public
-involvement''. \emph{Journal of Transport Geography} 10 (1). Elsevier:
-61--73.
+involvement''. \emph{Journal of Transport Geography} 10 (1).
+Elsevier:61--73.
 
-\hypertarget{ref-mobility2016}{}
+\leavevmode\hypertarget{ref-mobility2016}{}%
 Birenboim, Amit, e Noam Shoval. 2016. ``Mobility Research in the Age of
 the Smartphone''. \emph{Annals of the American Association of
-Geographers} 106 (2). Taylor \& Francis: 283--91.
+Geographers} 106 (2). Taylor \& Francis:283--91.
 
-\hypertarget{ref-partsens2006}{}
+\leavevmode\hypertarget{ref-partsens2006}{}%
 Burke, Jeffrey A, Deborah Estrin, Mark Hansen, Andrew Parker, Nithya
 Ramanathan, Sasank Reddy, e Mani B Srivastava. 2006. ``Participatory
 sensing''. \emph{Center for Embedded Network Sensing}.
 
-\hypertarget{ref-cartilhamerenda}{}
+\leavevmode\hypertarget{ref-cartilhamerenda}{}%
 Fundo Nacional de Desenvolvimento da Educação. 2014. ``Cartilha Nacional
 da Alimentação Escolar''.
 \url{http://www.educacao.sp.gov.br/a2sitebox/arquivos/documentos/960.pdf}.
 
-\hypertarget{ref-fndehist}{}
+\leavevmode\hypertarget{ref-fndehist}{}%
 ---------. 2015a. ``Histórico''.
 \url{http://www.fnde.gov.br/programas/alimentacao-escolar/alimentacao-escolar-historico}.
 
-\hypertarget{ref-fndeapre}{}
+\leavevmode\hypertarget{ref-fndeapre}{}%
 ---------. 2015b. ``Histórico''.
 \url{http://www.fnde.gov.br/index.php/programas/alimentacao-escolar/alimentacao-escolar-apresentacao}.
 
-\hypertarget{ref-food18}{}
+\leavevmode\hypertarget{ref-food18}{}%
 Harper, Clare, Lesley Wood, e Claire Mitchell. 2008. ``The provision of
 school food in 18 countries''. \emph{School Food Trust}. Citeseer.
 
-\hypertarget{ref-sensr0}{}
-Kim, Sunyoung, e Eric Paulos. 2012. ``A subscription-based authoring
-tool for mobile citizen science campaigns''. In \emph{CHI'12 Extended
-Abstracts on Human Factors in Computing Systems}, 2135--40. ACM.
-
-\hypertarget{ref-sensr1}{}
+\leavevmode\hypertarget{ref-sensr1}{}%
 Kim, Sunyoung, Jennifer Mankoff, e Eric Paulos. 2013. ``Sensr:
 Evaluating a Flexible Framework for Authoring Mobile Data-collection
 Tools for Citizen Science''. In \emph{Proceedings of the 2013 Conference
 on Computer Supported Cooperative Work}, 1453--62. CSCW '13. New York,
-NY, USA: ACM.
-doi:\href{https://doi.org/10.1145/2441776.2441940}{10.1145/2441776.2441940}.
+NY, USA: ACM. \url{https://doi.org/10.1145/2441776.2441940}.
 
-\hypertarget{ref-fix}{}
+\leavevmode\hypertarget{ref-sensr0}{}%
+Kim, Sunyoung, e Eric Paulos. 2012. ``A subscription-based authoring
+tool for mobile citizen science campaigns''. In \emph{CHI'12 Extended
+Abstracts on Human Factors in Computing Systems}, 2135--40. ACM.
+
+\leavevmode\hypertarget{ref-fix}{}%
 King, Stephen F, e Paul Brown. 2007. ``Fix my street or else: using the
 internet to voice local public service concerns''. In \emph{Proceedings
 of the 1st international conference on Theory and practice of electronic
 governance}, 72--80. ACM.
 
-\hypertarget{ref-techenga}{}
+\leavevmode\hypertarget{ref-techenga}{}%
 Kleinhans, Reinout, Maarten van Ham, e Jennifer Evans-Cowley. 2015.
 ``Using Social Media and Mobile Technologies to Foster Engagement and
 Self-Organization in Participatory Urban Planning and Neighbourhood
-Governance''. \emph{Planning Practice \& Research} 30 (3): 237--47.
+Governance''. \emph{Planning Practice \& Research} 30 (3):237--47.
 \url{http://EconPapers.repec.org/RePEc:taf:cpprxx:v:30:y:2015:i:3:p:237-247}.
 
-\hypertarget{ref-databasedpart}{}
+\leavevmode\hypertarget{ref-databasedpart}{}%
 Le Dantec, Christopher A. 2014. ``Data-Based Civic Participation''. In
 \emph{Second AAAI Conference on Human Computation and Crowdsourcing}.
 
-\hypertarget{ref-oqehmp}{}
+\leavevmode\hypertarget{ref-oqehmp}{}%
 Ministério Público do Estado do Pará. 2011. ``O que é o MP''.
 \url{http://www.mppa.mp.br/index.php?action=Menu.interna\&id=387\&class=M}.
 
-\hypertarget{ref-mpepep}{}
+\leavevmode\hypertarget{ref-mpepep}{}%
 Movimento Pacto Estudantil Pela Educação no Pará. 2016. ``Movimento
 Pacto Estudantil Pela Educação no Pará''.
 \url{https://www.facebook.com/mpepepara}.
 
-\hypertarget{ref-mocomapps}{}
+\leavevmode\hypertarget{ref-mocomapps}{}%
 Muller, Michael, Susanne Hupfer, Stephen Levy, Daniel Gruen, Reid
 Priedhorsky, e Andrew Sempere. 2011. ``MoCoMapps: An experiment in
 crowdsourcing both data and applications for mobile services''. In
 \emph{CHI workshop of Data Collection by the People, for the People}.
 
-\hypertarget{ref-disaster}{}
+\leavevmode\hypertarget{ref-disaster}{}%
 Nelson, Catherine Blackadar, Brian D Steckler, e Jeannie A Stamberger.
 2011. ``The evolution of hastily formed networks for disaster response:
 Technologies, case studies, and future trends''. In \emph{Global
 Humanitarian Technology Conference (GHTC), 2011 IEEE}, 467--75. IEEE.
 
-\hypertarget{ref-acessib}{}
+\leavevmode\hypertarget{ref-acessib}{}%
 Prandi, Catia, Marco Roccetti, Paola Salomoni, Valentina Nisi, e Nuno
 Jardim Nunes. 2016. ``Fighting exclusion: a multimedia mobile app with
 zombies and maps as a medium for civic engagement and design''.
 \emph{Multimedia Tools and Applications}. Springer, 1--29.
 
-\hypertarget{ref-prefpp}{}
+\leavevmode\hypertarget{ref-prefpp}{}%
 Prefeitura Municipal de Ponta de Pedras. 2016. ``Ponta de Pedras''.
 \url{http://www.prefeituradepontadepedras.pa.gov.br/o-municipio.asp}.
 
-\hypertarget{ref-prefsant}{}
+\leavevmode\hypertarget{ref-prefsant}{}%
 Prefeitura Municipal de Santarém. 2016. ``Santarém''.
 \url{http://www.santarem.pa.gov.br}.
 
-\hypertarget{ref-projsol}{}
+\leavevmode\hypertarget{ref-projsol}{}%
 Projeto SOL. 2012. ``Quem Somos''.
 \url{http://www.projetosolaaps.com.br}.
 
-\hypertarget{ref-goodciti}{}
+\leavevmode\hypertarget{ref-goodciti}{}%
 Schudson, Michael. 1998. ``The Good Citizen: A History ofAmerican Public
 Life''. New York: Free Press.
 \url{http://web.mit.edu/comm-forum/papers/schudson.html}.
 
-\hypertarget{ref-seducpp}{}
+\leavevmode\hypertarget{ref-seducpp}{}%
 Secretaria de Educação do Estado do Pará. 2016a. ``Ponta de Pedras''.
 \url{http://www.seduc.pa.gov.br/portal/escola/consulta_matricula/RelatorioMatriculas.php?codigo_ure=20\&codigo_municipio=44725}.
 
-\hypertarget{ref-seducsant}{}
+\leavevmode\hypertarget{ref-seducsant}{}%
 ---------. 2016b. ``Santarém''.
 \url{http://www.seduc.pa.gov.br/portal/escola/consulta_matricula/RelatorioMatriculas.php?codigo_ure=5\&codigo_municipio=44997}.
 
-\hypertarget{ref-citisci2009}{}
+\leavevmode\hypertarget{ref-citisci2009}{}%
 Silvertown, Jonathan. 2009. ``A new dawn for citizen science''.
-\emph{Trends in ecology \& evolution} 24 (9). Elsevier: 467--71.
+\emph{Trends in ecology \& evolution} 24 (9). Elsevier:467--71.
 
-\hypertarget{ref-pesqacao}{}
+\leavevmode\hypertarget{ref-pesqacao}{}%
 Thiollent, Michel. 2011. ``Metodologia da pesquisa-ação''. In. Cortez.
 
-\hypertarget{ref-ushahidi2012}{}
+\leavevmode\hypertarget{ref-ushahidi2012}{}%
 Wachanga, D Ndirangu. 2012. ``Participatory culture in an emerging
 information ecosystem: Lessons from Ushahidi''. \emph{Communicatio} 38
-(2). Taylor \& Francis: 195--212.
+(2). Taylor \& Francis:195--212.
 
-\hypertarget{ref-wikipp}{}
+\leavevmode\hypertarget{ref-wikipp}{}%
 Wikipedia. 2016a. ``Ponta de Pedras''.
 \url{https://pt.wikipedia.org/wiki/Ponta_de_Pedras}.
 
-\hypertarget{ref-wikisant}{}
+\leavevmode\hypertarget{ref-wikisant}{}%
 ---------. 2016b. ``Santarém''.
 \url{https://pt.wikipedia.org/wiki/Santar\%C3\%A9m_(Par\%C3\%A1)}.
 
